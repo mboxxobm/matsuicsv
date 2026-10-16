@@ -1,0 +1,519 @@
+{
+  "errors": [],
+  "states": {
+    "charts": [
+      {
+        "key": "1321",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.604,
+        "volume": true,
+        "delta": true,
+        "spikes": 34
+      },
+      {
+        "key": "1570",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.77,
+        "volume": true,
+        "delta": true,
+        "spikes": 29
+      },
+      {
+        "key": "5803",
+        "time": 1792025160,
+        "fills": [
+          {
+            "t": 1792024690,
+            "time": "2026-10-15 09:38:10",
+            "price": 4718,
+            "qty": 100,
+            "kind": "ENTRY",
+            "direction": "LONG",
+            "account": "Paper Trading",
+            "id": "3675406715"
+          },
+          {
+            "t": 1792024757,
+            "time": "2026-10-15 09:39:17",
+            "price": 4713,
+            "qty": 100,
+            "kind": "ENTRY",
+            "direction": "LONG",
+            "account": "Paper Trading",
+            "id": "3675406483"
+          },
+          {
+            "t": 1792024764,
+            "time": "2026-10-15 09:39:24",
+            "price": 4712,
+            "qty": 100,
+            "kind": "ENTRY",
+            "direction": "LONG",
+            "account": "Paper Trading",
+            "id": "3675407692"
+          },
+          {
+            "t": 1792024780,
+            "time": "2026-10-15 09:39:40",
+            "price": 4717,
+            "qty": 100,
+            "kind": "ENTRY",
+            "direction": "LONG",
+            "account": "Paper Trading",
+            "id": "3675411671"
+          },
+          {
+            "t": 1792025119,
+            "time": "2026-10-15 09:45:19",
+            "price": 4688,
+            "qty": 400,
+            "kind": "EXIT",
+            "direction": "LONG",
+            "account": "Paper Trading",
+            "id": "3675407694"
+          }
+        ],
+        "board": 1792025159.827,
+        "volume": true,
+        "delta": true,
+        "spikes": 16
+      },
+      {
+        "key": "6857",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.923,
+        "volume": true,
+        "delta": true,
+        "spikes": 26
+      },
+      {
+        "key": "6976",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.921,
+        "volume": true,
+        "delta": true,
+        "spikes": 26
+      },
+      {
+        "key": "9984",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.842,
+        "volume": true,
+        "delta": true,
+        "spikes": 22
+      },
+      {
+        "key": "285A",
+        "time": 1792028100,
+        "fills": [],
+        "board": 1792028099.681,
+        "volume": true,
+        "delta": true,
+        "spikes": 20
+      },
+      {
+        "key": "JP225YJPY",
+        "time": 1792028160,
+        "fills": [],
+        "volume": false,
+        "delta": false,
+        "spikes": 0
+      }
+    ],
+    "macros": {
+      "0": {
+        "symbol": "JP225",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 90,
+        "last": "2026-10-14 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 6692.357089880669,
+        "start": 1781136000,
+        "end": 1791936000
+      },
+      "1": {
+        "symbol": "US100",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 90,
+        "last": "2026-10-13 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 2212.256214311534,
+        "start": 1781049600,
+        "end": 1791849600
+      },
+      "2": {
+        "symbol": "JP225",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 99,
+        "last": "2026-10-15 18:00",
+        "rays": [
+          {
+            "start": 1791849600,
+            "end": 1791936000,
+            "value": 67883.9,
+            "label": "2026-10-13 09:00始値",
+            "current": false
+          },
+          {
+            "start": 1791936000,
+            "end": 1792022400,
+            "value": 67891.4,
+            "label": "2026-10-14 09:00始値",
+            "current": false
+          },
+          {
+            "start": 1792022400,
+            "end": 1792108800,
+            "value": 65823.9,
+            "label": "2026-10-15 09:00始値",
+            "current": true
+          }
+        ],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 4501.8569459279715,
+        "start": 1791849600,
+        "end": 1792108800
+      },
+      "3": {
+        "symbol": "US100",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 100,
+        "last": "2026-10-15 07:00",
+        "rays": [],
+        "missingOpening": true,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 1033.9606577795887,
+        "start": 1791849600,
+        "end": 1792108800
+      },
+      "4": {
+        "symbol": "JP225",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 300,
+        "last": "2026-10-15 19:15",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 66131.75899999999,
+          "sourceEnd": 1792058400
+        },
+        "showBB": false,
+        "bbWidth": null,
+        "start": 1792015200,
+        "end": 1792059600
+      },
+      "5": {
+        "symbol": "US100",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 300,
+        "last": "2026-10-15 08:35",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 30412.749499999998,
+          "sourceEnd": 1792018800
+        },
+        "showBB": false,
+        "bbWidth": null,
+        "start": 1792015200,
+        "end": 1792021200
+      },
+      "6": {
+        "symbol": "JP225",
+        "frame": "W1",
+        "maColor": "#be96ff",
+        "rows": 90,
+        "last": "2026-10-04 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 9302.17460221942,
+        "start": 1737244800,
+        "end": 1791072000
+      },
+      "7": {
+        "symbol": "US100",
+        "frame": "W1",
+        "maColor": "#be96ff",
+        "rows": 90,
+        "last": "2026-10-04 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 3119.2243260009354,
+        "start": 1737244800,
+        "end": 1791072000
+      },
+      "8": {
+        "symbol": "JP225",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 100,
+        "last": "2026-10-15 18:00",
+        "rays": [],
+        "missingOpening": true,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 5052.467305353307,
+        "start": 1791849600,
+        "end": 1792108800
+      }
+    },
+    "overflow": false
+  },
+  "stages": [
+    {
+      "cursor": 1792024200,
+      "fills": [],
+      "latest": 1792024200,
+      "board": 1792024199.673,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "4,700"
+      ],
+      "position": "この時点の約定なし。TP未記録・計画R:R未算出。"
+    },
+    {
+      "cursor": 1792024689,
+      "fills": [],
+      "latest": 1792024680,
+      "board": 1792024679.778,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "4,700"
+      ],
+      "position": "この時点の約定なし。TP未記録・計画R:R未算出。"
+    },
+    {
+      "cursor": 1792024800,
+      "fills": [
+        {
+          "time": 1792024690,
+          "kind": "ENTRY",
+          "price": 4718,
+          "qty": 100
+        },
+        {
+          "time": 1792024757,
+          "kind": "ENTRY",
+          "price": 4713,
+          "qty": 100
+        },
+        {
+          "time": 1792024764,
+          "kind": "ENTRY",
+          "price": 4712,
+          "qty": 100
+        },
+        {
+          "time": 1792024780,
+          "kind": "ENTRY",
+          "price": 4717,
+          "qty": 100
+        }
+      ],
+      "latest": 1792024800,
+      "board": 1792024799.79,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "ENTRY平均 4,715",
+        "4,700",
+        "LC逆指値 4,687"
+      ],
+      "position": "Paper保有 400株 / 平均 4,715円。LC逆指値4,687円。 TP未記録・計画R:R未算出。"
+    },
+    {
+      "cursor": 1792025119,
+      "fills": [
+        {
+          "time": 1792024690,
+          "kind": "ENTRY",
+          "price": 4718,
+          "qty": 100
+        },
+        {
+          "time": 1792024757,
+          "kind": "ENTRY",
+          "price": 4713,
+          "qty": 100
+        },
+        {
+          "time": 1792024764,
+          "kind": "ENTRY",
+          "price": 4712,
+          "qty": 100
+        },
+        {
+          "time": 1792024780,
+          "kind": "ENTRY",
+          "price": 4717,
+          "qty": 100
+        },
+        {
+          "time": 1792025119,
+          "kind": "EXIT",
+          "price": 4688,
+          "qty": 400
+        }
+      ],
+      "latest": 1792025115,
+      "board": 1792025114.976,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "ENTRY平均（決済済） 4,715",
+        "4,700",
+        "EXIT 4,688"
+      ],
+      "position": "Paper決済済 / 400株 / 実現 −10,800円（手数料0円）。TP記録なし。"
+    },
+    {
+      "cursor": 1792031400,
+      "fills": [
+        {
+          "time": 1792024690,
+          "kind": "ENTRY",
+          "price": 4718,
+          "qty": 100
+        },
+        {
+          "time": 1792024757,
+          "kind": "ENTRY",
+          "price": 4713,
+          "qty": 100
+        },
+        {
+          "time": 1792024764,
+          "kind": "ENTRY",
+          "price": 4712,
+          "qty": 100
+        },
+        {
+          "time": 1792024780,
+          "kind": "ENTRY",
+          "price": 4717,
+          "qty": 100
+        },
+        {
+          "time": 1792025119,
+          "kind": "EXIT",
+          "price": 4688,
+          "qty": 400
+        }
+      ],
+      "latest": 1792031400,
+      "board": 1792031399.852,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "ENTRY平均（決済済） 4,715",
+        "4,700",
+        "EXIT 4,688",
+        "4,600"
+      ],
+      "position": "Paper決済済 / 400株 / 実現 −10,800円（手数料0円）。TP記録なし。"
+    },
+    {
+      "cursor": 1792045800,
+      "fills": [
+        {
+          "time": 1792024690,
+          "kind": "ENTRY",
+          "price": 4718,
+          "qty": 100
+        },
+        {
+          "time": 1792024757,
+          "kind": "ENTRY",
+          "price": 4713,
+          "qty": 100
+        },
+        {
+          "time": 1792024764,
+          "kind": "ENTRY",
+          "price": 4712,
+          "qty": 100
+        },
+        {
+          "time": 1792024780,
+          "kind": "ENTRY",
+          "price": 4717,
+          "qty": 100
+        },
+        {
+          "time": 1792025119,
+          "kind": "EXIT",
+          "price": 4688,
+          "qty": 400
+        }
+      ],
+      "latest": 1792045800,
+      "board": 1792045799.376,
+      "labels": [
+        "5,300",
+        "5,200",
+        "5,100",
+        "5,000",
+        "4,900",
+        "4,800",
+        "ENTRY平均（決済済） 4,715",
+        "4,700",
+        "EXIT 4,688",
+        "4,600",
+        "4,500"
+      ],
+      "position": "Paper決済済 / 400株 / 実現 −10,800円（手数料0円）。TP記録なし。"
+    }
+  ],
+  "mobileOverflow": {
+    "scroll": 390,
+    "width": 390
+  }
+}

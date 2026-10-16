@@ -1,0 +1,90 @@
+{
+  "source_root": "[local path omitted]",
+  "files": [
+    {
+      "name": "285A_20261014_090216.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4626351,
+      "sha256": "1187dbe72544b696e64c0c61af14a7db2e60d5ae870b9cd56bacc07e0661001a",
+      "market_records": 63106,
+      "first_observed_jst": "2026-10-14T09:02:18.625",
+      "last_observed_jst": "2026-10-14T11:35:05.374"
+    },
+    {
+      "name": "285A_20261014_122506.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4519689,
+      "sha256": "0f12bcd72f59876231d813a2a14d2afeee3a550e63c05316a8cfbd156bbfcf28",
+      "market_records": 53070,
+      "first_observed_jst": "2026-10-14T12:25:07.578",
+      "last_observed_jst": "2026-10-14T15:30:59.284"
+    },
+    {
+      "name": "6857_20261014_090216.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 3437467,
+      "sha256": "4d189eb6b014ab43a31b3af32ae5f88fb4776a545bec3635a0e11e2fa1719f2f",
+      "market_records": 45897,
+      "first_observed_jst": "2026-10-14T09:02:18.690",
+      "last_observed_jst": "2026-10-14T11:35:05.620"
+    },
+    {
+      "name": "6857_20261014_122506.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 3520203,
+      "sha256": "091a2bf19e93075ad8ba29319cbba33dd254acd0b5bd721160fdea7213b22a8e",
+      "market_records": 42853,
+      "first_observed_jst": "2026-10-14T12:25:07.824",
+      "last_observed_jst": "2026-10-14T15:30:59.530"
+    }
+  ],
+  "method": "PUSH/REST_BOARDのみ。価格・累積出来高・API VWAP・最良気配を抽出。認証・個人注文のレコードを含めない。板の数量を約定出来高・DELTAへ加算しない。",
+  "sanitized_files": [
+    {
+      "local_path": "[local path omitted]",
+      "sha256": "3def27ecdd0921508a314a62f2826a27e4776530a4f71a46bf37b0a8ad1edc70",
+      "snapshots": 1357
+    },
+    {
+      "local_path": "[local path omitted]",
+      "sha256": "0dbaf500bbef4852fe1fa59bfdf81e5645cd1893e7cbfa5d1b1ca9fe832e2057",
+      "snapshots": 1357
+    }
+  ],
+  "coverage": {
+    "285A": {
+      "source": "HDD BoardReadTools",
+      "files": [
+        "285A_20261014_090216.jsonl.gz",
+        "285A_20261014_122506.jsonl.gz"
+      ],
+      "market_records": 116176,
+      "display_snapshots": 1357,
+      "first_observed_jst": "2026-10-14T09:02:18.625+09:00",
+      "last_observed_jst": "2026-10-14T15:30:59.284+09:00",
+      "first_cumulative_volume": 2520400.0,
+      "last_cumulative_volume": 53857300.0,
+      "walk_full_day_volume": 53857300,
+      "volume_difference": 0.0,
+      "stale_lower_volume_records_skipped": 2,
+      "sampling": "表示用は15秒区間で最後に観測した板を保持。観測時刻が再生時刻以下のスナップショットだけを表示。寄り09:00〜09:02頃は板ログ未収録、出来高は歩み値で補う。"
+    },
+    "6857": {
+      "source": "HDD BoardReadTools",
+      "files": [
+        "6857_20261014_090216.jsonl.gz",
+        "6857_20261014_122506.jsonl.gz"
+      ],
+      "market_records": 88750,
+      "display_snapshots": 1357,
+      "first_observed_jst": "2026-10-14T09:02:18.690+09:00",
+      "last_observed_jst": "2026-10-14T15:30:59.530+09:00",
+      "first_cumulative_volume": 975900.0,
+      "last_cumulative_volume": 16637800.0,
+      "walk_full_day_volume": 16637800,
+      "volume_difference": 0.0,
+      "stale_lower_volume_records_skipped": 0,
+      "sampling": "表示用は15秒区間で最後に観測した板を保持。観測時刻が再生時刻以下のスナップショットだけを表示。寄り09:00〜09:02頃は板ログ未収録、出来高は歩み値で補う。"
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "created_at": "2026-10-16",
+  "root": "[local path omitted]",
+  "baseline_manifest": "outputs/tag_taxonomy_implementation/20261016/prechange_manifest.json",
+  "self_hash_policy": "This manifest does not include its own hash; all other deliverable file hashes are listed.",
+  "source_data_preservation": {
+    "data/trade_diary_scenes.json": "9f5f8849ec81498af949afea6539ce1be5fb8e2327b218e3376d2817ab2ef8ae",
+    "data/diary_catalog.json": "0e81698e4031478c836107778b5c1cfaa9f6f26c5a2c084a651420d9a442d037",
+    "data/diary_tag_dictionary.json": "8ee695a8f9d5f169ca577d2d2a236776dc35e38a293f7d438583c963dd996775",
+    "data/diary_tags.json": "ddba37606bed0cc767d21e94e144c064cdf10a7831cb534cdce5fb8c0cbc8d0e"
+  },
+  "files": [
+    {
+      "path": "diary_tag_index.html",
+      "change_type": "modified",
+      "role": "Generated common tag index with same-scene search, all diary entrances, and local links.",
+      "sha256_before": "dfcdf8ac4b9afc295681d9e183cee980ea98f6e797234fb9d6fb1c3b8096e55b",
+      "sha256_after": "abe5ce35987cee76259badf660c79c1271406ed0ab2b72f1de2386221a082e50",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/diary_tag_index.html",
+      "sha256_backup": "dfcdf8ac4b9afc295681d9e183cee980ea98f6e797234fb9d6fb1c3b8096e55b",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "scripts/diary_tag_catalog.py",
+      "change_type": "modified",
+      "role": "Generator: taxonomy/annotation embed, multi-tag filters, direct source details, corrected local diary links, and local backlink bridge.",
+      "sha256_before": "150d972230d292747a8bbfdb975617113f774ba1c8fc0b72ce323b232e082b5e",
+      "sha256_after": "802edb1dbc34ff89a510d3fceaa9d8ce442d99e06ccb97a2f85757afc35c0ecf",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/scripts/diary_tag_catalog.py",
+      "sha256_backup": "150d972230d292747a8bbfdb975617113f774ba1c8fc0b72ce323b232e082b5e",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "shared/diary_tag_matching.js",
+      "change_type": "added",
+      "role": "Pure exact-tag matching logic shared by the browser UI and Node validation.",
+      "sha256_before": null,
+      "sha256_after": "8de2acfe85f9ec24c16a4aacd70fa1c8dc0e36826858040aec7c0bddb4889dd1",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "shared/diary_tag_search.js",
+      "change_type": "modified",
+      "role": "Browser UI behavior for filters, URLs, history, and scene matching.",
+      "sha256_before": "8bdaae61a96d676aaca403bc02e59555e123c2cb171e489f0e2b8ad1355fa193",
+      "sha256_after": "de5f76439dfa3284dbbf499fd21046c05f2a2e70af90e5ac3be861402edb02a1",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/shared/diary_tag_search.js",
+      "sha256_backup": "8bdaae61a96d676aaca403bc02e59555e123c2cb171e489f0e2b8ad1355fa193",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "shared/diary_tag_search.css",
+      "change_type": "modified",
+      "role": "Responsive index and definition cards.",
+      "sha256_before": "34e69b7355df9163fd31cc51c2a90acee8cfa870c45a470914f1b565b11931f7",
+      "sha256_after": "9906b2389b1fb21842e4ca88a8cfe9b9bf5ba2a0c73a60b1eacfead42b203a48",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/shared/diary_tag_search.css",
+      "sha256_backup": "34e69b7355df9163fd31cc51c2a90acee8cfa870c45a470914f1b565b11931f7",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "scripts/tag_taxonomy_support.py",
+      "change_type": "added",
+      "role": "Builds the complete editable definition registry and searchable definition directory.",
+      "sha256_before": null,
+      "sha256_after": "6b31e65218336b6d645ea03b236347fb7ef1aed7ef1787461106f73986d7ade2",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "scripts/validate_diary_tag_taxonomy.py",
+      "change_type": "added",
+      "role": "Python semantic/data/link validation and final report writer.",
+      "sha256_before": null,
+      "sha256_after": "6342198bfe709301cb90d4d0f56008e6a3c7b811da7d0ce134848fc7cb6855df",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "scripts/validate_tag_matching.js",
+      "change_type": "added",
+      "role": "Node assertions against the exact browser matching module.",
+      "sha256_before": null,
+      "sha256_after": "f0e14e776fb11ca2fec2b29f3151848e67cda7935f2f462013ca08807e3791fd",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "data/diary_tag_taxonomy.json",
+      "change_type": "added",
+      "role": "Confirmed aliases, exact composite decompositions, and opt-in related relations.",
+      "sha256_before": null,
+      "sha256_after": "516076a44a2a548da00e365a9c91de7798ff63cd45cbab4efdccc65cf1347bce",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "data/diary_scene_annotations.json",
+      "change_type": "added",
+      "role": "Additive exact-ID scene facets, execution/P&L separation, direct source scope and unknown fields.",
+      "sha256_before": null,
+      "sha256_after": "31203d6068280e5c09efc089e07c2468f8d223b173a6f3f0fa7b830a74b8e0c5",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "data/diary_tag_definitions.json",
+      "change_type": "generated_additive",
+      "role": "Editable entry for every indexed canonical tag; unknown approach fields remain unconfirmed.",
+      "sha256_before": null,
+      "sha256_after": "57d0b680f266eba17b9f5a9cc6497d25626fc5b21dde16a6ecbfb8135fe204a7",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "exact_prior_state_not_recorded"
+    },
+    {
+      "path": "tag_approach_definitions/index.html",
+      "change_type": "modified",
+      "role": "Generated searchable directory for all tag definition entries.",
+      "sha256_before": "b5a098c53ea259bb493d174896fe05d700771baf0bd353236b0a68d28ba83f30",
+      "sha256_after": "40329145cb785b960e4b694386577f66601f6ca7cfc66ac5ac58fc74dc734be7",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/index.html",
+      "sha256_backup": "b5a098c53ea259bb493d174896fe05d700771baf0bd353236b0a68d28ba83f30",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "tag_approach_definitions/README.md",
+      "change_type": "modified",
+      "role": "Current design, editing instructions, execution/P&L separation, and links.",
+      "sha256_before": "d007b088a7df866a9914c0b22a96ab5b172e1bb042f64eb25dc23a95adf0dab6",
+      "sha256_after": "4956ca5d6c97c28aed0cc571ab2f9e27063eb196e350989cab739c5f97ccc1d4",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/README.md",
+      "sha256_backup": "d007b088a7df866a9914c0b22a96ab5b172e1bb042f64eb25dc23a95adf0dab6",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "tag_approach_definitions/role_reversal.md",
+      "change_type": "modified",
+      "role": "Updated confirmed alias, composite search, evidence and unresolved approach fields.",
+      "sha256_before": "eaa5eb848584e5222fadded7508cc7ac25a506e6ce0845660decb0b0349c2175",
+      "sha256_after": "279aa69be1701a3732b9cea615cd5eb81229bb4a662e11671ebf65075dfc4c5c",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/role_reversal.md",
+      "sha256_backup": "eaa5eb848584e5222fadded7508cc7ac25a506e6ce0845660decb0b0349c2175",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "tag_approach_definitions/bb_comp.md",
+      "change_type": "modified",
+      "role": "Updated BB COMP measurements, examples, exact composite/related search, and unknowns.",
+      "sha256_before": "a7de3899d21d97c812734552ca351d5c485e089a057c695ad2dc725fdd125a2d",
+      "sha256_after": "b19c6999552d0800957c5eac5504f56e406a26dbac84df1f391025d53a42570d",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/bb_comp.md",
+      "sha256_backup": "a7de3899d21d97c812734552ca351d5c485e089a057c695ad2dc725fdd125a2d",
+      "baseline_status": "backed_up_before_edit"
+    },
+    {
+      "path": "tag_approach_definitions/TAG_DEFINITION_TEMPLATE.md",
+      "change_type": "added",
+      "role": "Shared evidence-based tag definition template.",
+      "sha256_before": null,
+      "sha256_after": "39950774dfab8d6f552d8a7c83c278e3864e3a2ef65a10776db9e51452de7bbe",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "outputs/diary_tag_rollout/publish/diary_tag_index.html",
+      "change_type": "added",
+      "role": "Local redirect bridge from existing diary copies to the common index; preserves query and fragment.",
+      "sha256_before": null,
+      "sha256_after": "d1b8e04a1bfba4cebcda0363ea3b192e1a39f3254ea0abb14a545d7324e411f7",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "outputs/tag_taxonomy_implementation/20261016/evidence_followup.csv",
+      "change_type": "added",
+      "role": "24-row evidence linkage ledger with current-scene ID status and source paths.",
+      "sha256_before": null,
+      "sha256_after": "09157cad615aed1ff4da2105d6fd12d5d1c58ad9076b61d27822821386ecf4ab",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "outputs/tag_taxonomy_implementation/20261016/evidence_followup.md",
+      "change_type": "added",
+      "role": "12 unlinked examples and retained conflicts/limitations.",
+      "sha256_before": null,
+      "sha256_after": "f87ac0d96e5207464a885e7bf38435bb01184413210c395a7371682ce793e94e",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "outputs/tag_taxonomy_implementation/20261016/validation_results.json",
+      "change_type": "added",
+      "role": "Final checks, counts, link results, and browser QA blocker.",
+      "sha256_before": null,
+      "sha256_after": "d8a2232564d6211e91450be111154d567e20ef0ccfab0ed2b103885886eb4274",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    },
+    {
+      "path": "outputs/tag_taxonomy_implementation/20261016/implementation_report.md",
+      "change_type": "added",
+      "role": "Implementation design, counts, usage, validation and remaining limits.",
+      "sha256_before": null,
+      "sha256_after": "51df9cc39f942fb07aa06689e7f2c24d493bccc088102cb14dfc3d594c6782d2",
+      "backup_path": null,
+      "sha256_backup": null,
+      "baseline_status": "added_during_this_execution"
+    }
+  ],
+  "runtime_cache_note": "Python __pycache__ bytecode is excluded from deliverables; any cache refresh is reproducible from the listed source scripts."
+}

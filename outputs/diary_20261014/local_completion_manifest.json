@@ -1,0 +1,713 @@
+{
+  "state": "本番・追記版／提供資料時点まで／FTP公開済み",
+  "source_commit": "9b12e8feb3b4209d030e398dbcd9cdc5a45ea649",
+  "files": [
+    "assets/2026-10-14/github/2026-10-14 (1).png",
+    "assets/2026-10-14/github/2026-10-14 (2).png",
+    "assets/2026-10-14/github/2026-10-14 (3).png",
+    "assets/2026-10-14/github/2026-10-14 (4).png",
+    "assets/2026-10-14/github/2026-10-14 (5).png",
+    "assets/2026-10-14/github/2026-10-14 (6).png",
+    "assets/2026-10-14/github/スクリーン ショット 2026-10-14 に 09.43.43 午前.png",
+    "data/2026-10-14/github/market-context/market_data/axiory/JP225_D1.csv",
+    "data/2026-10-14/github/market-context/market_data/axiory/JP225_H1.csv",
+    "data/2026-10-14/github/market-context/market_data/axiory/JP225_W1.csv",
+    "data/2026-10-14/github/market-context/market_data/axiory/US100_D1.csv",
+    "data/2026-10-14/github/market-context/market_data/axiory/US100_H1.csv",
+    "data/2026-10-14/github/source-data/OANDA_JP225YJPY, 20_e281b.csv",
+    "data/diary_tags.json",
+    "diary_2026-10-14.html",
+    "diary_2026-10-14.md",
+    "diary_tag_index.html",
+    "outputs/diary_20261014/FACTS.md",
+    "outputs/diary_20261014/chart_285A.png",
+    "outputs/diary_20261014/chart_6857.png",
+    "outputs/diary_20261014/chart_JP225YJPY.png",
+    "outputs/diary_20261014/chart_SNDK.png",
+    "outputs/diary_20261014/chart_TSLA.png",
+    "outputs/diary_20261014/local_board_sources_manifest.json",
+    "outputs/diary_20261014/macro_0.png",
+    "outputs/diary_20261014/macro_1.png",
+    "outputs/diary_20261014/macro_2.png",
+    "outputs/diary_20261014/macro_3.png",
+    "outputs/diary_20261014/macro_4.png",
+    "outputs/diary_20261014/market_context_sources_manifest.json",
+    "outputs/diary_20261014/memo_285A.md",
+    "outputs/diary_20261014/memo_4498.md",
+    "outputs/diary_20261014/memo_6857.md",
+    "outputs/diary_20261014/memo_JP225YJPY.md",
+    "outputs/diary_20261014/memo_SNDK.md",
+    "outputs/diary_20261014/memo_TSLA.md",
+    "outputs/diary_20261014/r2_sources_manifest.json",
+    "outputs/diary_20261014/retrospective_tags.json",
+    "outputs/diary_20261014/sources_manifest.json",
+    "shared/diary_ohlcv_replay.js",
+    "shared/diary_tag_search.css",
+    "shared/diary_tag_search.js",
+    "shared/diary_index_charts.js",
+    "shared/diary_index_charts.css",
+    "shared/diary_ohlcv_replay_v2.js",
+    "scripts/diary_index_replay.py",
+    "scripts/diary_index_buttons_20261014.py",
+    "templates/index_mtf_chart.json",
+    "templates/diary_template_board_reading_9-15_30.md",
+    "diary_creation_rules.md",
+    "outputs/diary_20261014/index_H1_after.png",
+    "outputs/diary_20261014/index_H1_before.png",
+    "outputs/diary_20261014/index_D1_before.png",
+    "outputs/diary_20261014/index_M5_after.png",
+    "outputs/diary_20261014/index_M5_before.png",
+    "outputs/diary_20261014/index_snapshots_mobile.png",
+    "outputs/diary_20261014/index_D1_after.png",
+    "outputs/diary_20261014/index_replay_sources.json",
+    "outputs/diary_20261014/index_snapshot_capture.json",
+    "outputs/diary_20261014/chart_data.json",
+    "outputs/diary_20261014/render_today.py",
+    "outputs/diary_20261014/timeframe_sources_manifest.json",
+    "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+    "data/2026-10-15/github/market_data/axiory/JP225_H1.csv",
+    "data/2026-10-15/github/market_data/axiory/JP225_D1.csv",
+    "data/2026-10-15/github/market_data/axiory/JP225_W1.csv",
+    "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+    "data/2026-10-15/github/market_data/axiory/US100_H1.csv",
+    "data/2026-10-15/github/market_data/axiory/US100_D1.csv",
+    "data/2026-10-15/github/market_data/axiory/US100_W1.csv"
+  ],
+  "dependencies": [
+    "shared/chart_viewer.css",
+    "shared/chart_viewer.js",
+    "shared/diary_symbol_replay.css"
+  ],
+  "pending": [
+    "US100の日本時間09:00始値を含む別データ（本人が後日用意）",
+    "225の引け・夜の本人記録、正確なLC・決済結果",
+    "6857の480の意味・仮想ENTRY価格とLC、仮想利益額",
+    "真の約定方向別数量（DELTAは推定）"
+  ],
+  "user_confirmation": "昼の225CashロングはCSVの11:21 OANDA Paper Tradingと同じ。",
+  "additional_source_commit": "8576d47ce4c80955279ca1c4feef0ba4f4fde0f9",
+  "updates": [
+    "225・US100の日足20SMA（赤）",
+    "225 OANDA H1のJST09:00始値67,891.4から翌日09:00まで",
+    "285A・6857 R2全日歩み値から15秒足と推定DELTA",
+    "両銘柄のエントリーできなかった候補を本人追記として保存",
+    "285A・6857 当日のHDD板ログを追加、気配・板数量・API VWAPを再生時刻へ同期",
+    "285A・6857・TSLAへ本人指定の張り付きが必要な未実行候補タグを保存し、検索HTMLを追加"
+  ],
+  "verification": {
+    "checks": 184,
+    "javascript_errors": 0,
+    "links": 93,
+    "missing_links": 0,
+    "chart_scope": "既存のチャート再生は前回184項目確認済み。今回追加したタグ検索はtag_display_review.jsonの表示・操作確認を参照。",
+    "public_links_checked": 32,
+    "public_http_200": 32,
+    "public_http_errors": 0
+  },
+  "hdd_board_source": "[local path omitted]",
+  "tag_display_review": "outputs/diary_20261014/tag_display_review.json",
+  "publication": {
+    "status": "FTP公開・HTTPS確認済み",
+    "target": "ftp://matsuicsv.laggy.jp/022tradeDaily/",
+    "diary_url": "https://matsuicsv.laggy.jp/022tradeDaily/diary_2026-10-14.html",
+    "tag_index_url": "https://matsuicsv.laggy.jp/022tradeDaily/diary_tag_index.html",
+    "published_on": "2026-10-14 JST",
+    "unique_file_count": 45,
+    "unique_file_bytes": 9516318,
+    "http_urls_checked": 32,
+    "http_200": 32,
+    "diary_html_matches_local_sha256": true,
+    "diary_markdown_matches_local_sha256": true,
+    "homepage_updated": false,
+    "homepage_note": "DairyHome.html in the work root is dated 2026-10-06; the public copy is dated 2026-10-07. It was not replaced with the older local index.",
+    "files": [
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (1).png",
+        "bytes": 356578,
+        "sha256": "88d3215249d29737a825a5b14f42ee10f84e2f95cc574b1d0c13e857ff6ffa97"
+      },
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (2).png",
+        "bytes": 214070,
+        "sha256": "fee329ea44418bec1643c030b8680e139422547da7e1fc366d9cc65ab9b9bfa0"
+      },
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (3).png",
+        "bytes": 616303,
+        "sha256": "4149e54913a481d9a5489487a7ebcfd62d4d06cc800844e56d14058bb73db075"
+      },
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (4).png",
+        "bytes": 61690,
+        "sha256": "80b53c0dfcfd06fd058902b5ae9210a66825761bcc1ac4daea75810b2818d7ae"
+      },
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (5).png",
+        "bytes": 111185,
+        "sha256": "0579e0754a783527421ce80d5f5b4884852e947f917f561b7b59e2d548e8bc6e"
+      },
+      {
+        "path": "assets/2026-10-14/github/2026-10-14 (6).png",
+        "bytes": 138519,
+        "sha256": "44e06bd06c5561010c78f18d1914582e4a69424cda626e3a6070ec57f58d462e"
+      },
+      {
+        "path": "assets/2026-10-14/github/スクリーン ショット 2026-10-14 に 09.43.43 午前.png",
+        "bytes": 3322990,
+        "sha256": "d8ee22d5d9ace301ec2c8f15a2372a436b6e733b7cdcbf86dfedc8fba4eec2c0"
+      },
+      {
+        "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_D1.csv",
+        "bytes": 68207,
+        "sha256": "76bdfd388b8b9232ae4defb7c0e5befc61f37365ae49192d17827760cf578266"
+      },
+      {
+        "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_H1.csv",
+        "bytes": 652521,
+        "sha256": "205d78e8bea4f62c787d280760cded18e900b021294e66074f6ae97f34ccf566"
+      },
+      {
+        "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_W1.csv",
+        "bytes": 13888,
+        "sha256": "7f990ba3cd27c2da605b95e492c09fd406e0fd315f3ee1d1c12b799a1ed13e14"
+      },
+      {
+        "path": "data/2026-10-14/github/market-context/market_data/axiory/US100_D1.csv",
+        "bytes": 68686,
+        "sha256": "264d599db251f9de1de60dd000e653128379e383d122f04339e68e9908989c3c"
+      },
+      {
+        "path": "data/2026-10-14/github/market-context/market_data/axiory/US100_H1.csv",
+        "bytes": 648536,
+        "sha256": "4dfb501739ae40b8987df2d8e5502513eb62de580c7c012be2a43c47d31a4c48"
+      },
+      {
+        "path": "data/2026-10-14/github/source-data/OANDA_JP225YJPY, 20_e281b.csv",
+        "bytes": 42604,
+        "sha256": "6c4930c78eda03ba9d5838f2ed97a8d930f43893b921e947cad91d8e67d9fce1"
+      },
+      {
+        "path": "data/diary_tags.json",
+        "bytes": 4546,
+        "sha256": "076fd5a73e0f69040ef9fcccc894b782d9b39767e193398d1993de2b048b1475"
+      },
+      {
+        "path": "diary_2026-10-14.html",
+        "bytes": 2623641,
+        "sha256": "d77ae93d3a279693442fb2efa2f7db95a8a49352619828edae464b38eadb93fc"
+      },
+      {
+        "path": "diary_2026-10-14.md",
+        "bytes": 39618,
+        "sha256": "52bb6dbb8c446e9319cd098e538bc1a83e9434b10ee7334ae60b8409f0c10fa5"
+      },
+      {
+        "path": "diary_tag_index.html",
+        "bytes": 9103,
+        "sha256": "32b82bf201a8d7d8e4950fcd2efa9813088e413a662ca85db204a232df03356d"
+      },
+      {
+        "path": "outputs/diary_20261014/FACTS.md",
+        "bytes": 16218,
+        "sha256": "a5ac10736b406d71e7b4a57326b9ae3d5cdc179bdc2c9efdfda0994cbe520c47"
+      },
+      {
+        "path": "outputs/diary_20261014/chart_285A.png",
+        "bytes": 44913,
+        "sha256": "0148741a00bb9017e73f24e848357ed9b57a81b2a2cea997cfa84a23ae62617b"
+      },
+      {
+        "path": "outputs/diary_20261014/chart_6857.png",
+        "bytes": 53269,
+        "sha256": "c0a99fef6fda62a585da14950c3939286bb071452eb983e4ce4e2bb4b37cda63"
+      },
+      {
+        "path": "outputs/diary_20261014/chart_JP225YJPY.png",
+        "bytes": 64785,
+        "sha256": "05322cb02bce234958cdd05d3f25797ea2ccd219eaac7d2c91fe16b74382d35c"
+      },
+      {
+        "path": "outputs/diary_20261014/chart_SNDK.png",
+        "bytes": 44255,
+        "sha256": "ec17497e815a64eeca183a60ebe235d3f21e6d47bbcb9719adf6f8bba8aa7f96"
+      },
+      {
+        "path": "outputs/diary_20261014/chart_TSLA.png",
+        "bytes": 52986,
+        "sha256": "340c5876e314fa2cd8ef90f5e2432af4a263315a570adb4e56839f365e222998"
+      },
+      {
+        "path": "outputs/diary_20261014/local_board_sources_manifest.json",
+        "bytes": 4211,
+        "sha256": "02c0e5e1dbfa791c9d70cefe60787bf0b3718c5bccb3cc6e3149eca9cf595ffc"
+      },
+      {
+        "path": "outputs/diary_20261014/macro_0.png",
+        "bytes": 25522,
+        "sha256": "41f780a3abb71e70a012f87f999c30e9501ec9c8143d0c4e9dc0b0d48339c914"
+      },
+      {
+        "path": "outputs/diary_20261014/macro_1.png",
+        "bytes": 29839,
+        "sha256": "6d5d6ff4dc1f00142f88f875df3377dd77a11e2b24fb54c5c628035e78e0a418"
+      },
+      {
+        "path": "outputs/diary_20261014/macro_2.png",
+        "bytes": 28515,
+        "sha256": "4862fba1b3cf09f8edd80a9e5d17f62e7caa85e2f7ae0658dc1e484c57af1f8c"
+      },
+      {
+        "path": "outputs/diary_20261014/macro_3.png",
+        "bytes": 35478,
+        "sha256": "98b8e25ab86230a61649c6dce99d2e249dc948f0c187ab43ab5deb8b1ed33736"
+      },
+      {
+        "path": "outputs/diary_20261014/macro_4.png",
+        "bytes": 31834,
+        "sha256": "a5bd57fa0e3ea917f261f1fa134d524b923eb9ca0c92e94c37702e67fa36b96a"
+      },
+      {
+        "path": "outputs/diary_20261014/market_context_sources_manifest.json",
+        "bytes": 4095,
+        "sha256": "87308b7224623e9c5fb25d2efe7f9107762423db85c0f3fb2fc3b3f7c8e76cb0"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_285A.md",
+        "bytes": 2382,
+        "sha256": "d814960a91442c12ac366458dbfbd5fd5e2cd661dab6323d6a87fc54451a93df"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_4498.md",
+        "bytes": 563,
+        "sha256": "2e0b7749a6f28fb0b157157cafe4a1988ecfcb8796686e2e63ce69f406d70260"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_6857.md",
+        "bytes": 2493,
+        "sha256": "6ed0a47fded0935e22c8ca72a675625faba259d26db53b1ea5ab9c9000744125"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_JP225YJPY.md",
+        "bytes": 1487,
+        "sha256": "3ad5e9bf834bd059c477d3413f3f23459c9deb1a8348ac6da2cde6b23380762b"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_SNDK.md",
+        "bytes": 1345,
+        "sha256": "33004c1db821c46e1d07366f373f93bdc6f99dbcf57b5220117533b20fdd098f"
+      },
+      {
+        "path": "outputs/diary_20261014/memo_TSLA.md",
+        "bytes": 1830,
+        "sha256": "f7119db4a0c88a07bf0c94bf10513b39a3acabd54caf54e4d29548fd6460d8ec"
+      },
+      {
+        "path": "outputs/diary_20261014/r2_sources_manifest.json",
+        "bytes": 1802,
+        "sha256": "17501a930eb3cfd6b708c3a2d4aaae3e536d608c8219cee0ee44283c6fb7dfd5"
+      },
+      {
+        "path": "outputs/diary_20261014/retrospective_tags.json",
+        "bytes": 3832,
+        "sha256": "039f2cb600edbf31eed581b0d725e01137ba825f4b54a46452c39857f1cd842b"
+      },
+      {
+        "path": "outputs/diary_20261014/sources_manifest.json",
+        "bytes": 14998,
+        "sha256": "3f4cddb7c3cc2c2afcf7d0fa756b7bf5d9da56b09056ca14f6ff881961764a44"
+      },
+      {
+        "path": "shared/chart_viewer.css",
+        "bytes": 5274,
+        "sha256": "8e3dee772556c2b396edbdd9f2b99497ff7f7150b5355a191be9c267133237fb"
+      },
+      {
+        "path": "shared/chart_viewer.js",
+        "bytes": 19994,
+        "sha256": "1b8fc0601d8ae3e20bc215033df3fda14d9a2c29a7f49c84310d5978560b5c84"
+      },
+      {
+        "path": "shared/diary_ohlcv_replay.js",
+        "bytes": 23905,
+        "sha256": "61cb8f7183b3db13c0ddaf60e090e9b13b209c793fb461ed0c699e5348cd66d1"
+      },
+      {
+        "path": "shared/diary_symbol_replay.css",
+        "bytes": 3751,
+        "sha256": "5f850366f6044818b51e09fadf81067435a94433cd9429b2df1dff79b9947686"
+      },
+      {
+        "path": "shared/diary_tag_search.css",
+        "bytes": 2419,
+        "sha256": "3593b213919c9c5c42edeb9bf6e60d1ad3c11472476c4f4d20eb3f7d16548149"
+      },
+      {
+        "path": "shared/diary_tag_search.js",
+        "bytes": 1638,
+        "sha256": "a2f369ffd086ce4ca4eb72f3f88bddc2e457c249c698abc7097a70ef3155453b"
+      }
+    ]
+  },
+  "revision": "index-timeframes-before-after-replay",
+  "local_revision_state": "ローカル保存・今回の変更はFTP別工程",
+  "links": {
+    "links": 75,
+    "unresolved": []
+  },
+  "index_replay_sources": "outputs/diary_20261014/index_replay_sources.json",
+  "stock_payload_sha256": "4fdf30e70ed2ce852fbe3f56de140199903ac2968ca78fb564161b6183a9ab70",
+  "prior_stock_payload_sha256": "4fdf30e70ed2ce852fbe3f56de140199903ac2968ca78fb564161b6183a9ab70",
+  "index_capture": [],
+  "file_integrity": [
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (1).png",
+      "sha256": "88d3215249d29737a825a5b14f42ee10f84e2f95cc574b1d0c13e857ff6ffa97",
+      "bytes": 356578
+    },
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (2).png",
+      "sha256": "fee329ea44418bec1643c030b8680e139422547da7e1fc366d9cc65ab9b9bfa0",
+      "bytes": 214070
+    },
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (3).png",
+      "sha256": "4149e54913a481d9a5489487a7ebcfd62d4d06cc800844e56d14058bb73db075",
+      "bytes": 616303
+    },
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (4).png",
+      "sha256": "80b53c0dfcfd06fd058902b5ae9210a66825761bcc1ac4daea75810b2818d7ae",
+      "bytes": 61690
+    },
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (5).png",
+      "sha256": "0579e0754a783527421ce80d5f5b4884852e947f917f561b7b59e2d548e8bc6e",
+      "bytes": 111185
+    },
+    {
+      "path": "assets/2026-10-14/github/2026-10-14 (6).png",
+      "sha256": "44e06bd06c5561010c78f18d1914582e4a69424cda626e3a6070ec57f58d462e",
+      "bytes": 138519
+    },
+    {
+      "path": "assets/2026-10-14/github/スクリーン ショット 2026-10-14 に 09.43.43 午前.png",
+      "sha256": "d8ee22d5d9ace301ec2c8f15a2372a436b6e733b7cdcbf86dfedc8fba4eec2c0",
+      "bytes": 3322990
+    },
+    {
+      "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_D1.csv",
+      "sha256": "76bdfd388b8b9232ae4defb7c0e5befc61f37365ae49192d17827760cf578266",
+      "bytes": 68207
+    },
+    {
+      "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_H1.csv",
+      "sha256": "205d78e8bea4f62c787d280760cded18e900b021294e66074f6ae97f34ccf566",
+      "bytes": 652521
+    },
+    {
+      "path": "data/2026-10-14/github/market-context/market_data/axiory/JP225_W1.csv",
+      "sha256": "7f990ba3cd27c2da605b95e492c09fd406e0fd315f3ee1d1c12b799a1ed13e14",
+      "bytes": 13888
+    },
+    {
+      "path": "data/2026-10-14/github/market-context/market_data/axiory/US100_D1.csv",
+      "sha256": "264d599db251f9de1de60dd000e653128379e383d122f04339e68e9908989c3c",
+      "bytes": 68686
+    },
+    {
+      "path": "data/2026-10-14/github/market-context/market_data/axiory/US100_H1.csv",
+      "sha256": "4dfb501739ae40b8987df2d8e5502513eb62de580c7c012be2a43c47d31a4c48",
+      "bytes": 648536
+    },
+    {
+      "path": "data/2026-10-14/github/source-data/OANDA_JP225YJPY, 20_e281b.csv",
+      "sha256": "6c4930c78eda03ba9d5838f2ed97a8d930f43893b921e947cad91d8e67d9fce1",
+      "bytes": 42604
+    },
+    {
+      "path": "data/diary_tags.json",
+      "sha256": "ddba37606bed0cc767d21e94e144c064cdf10a7831cb534cdce5fb8c0cbc8d0e",
+      "bytes": 8928
+    },
+    {
+      "path": "diary_2026-10-14.html",
+      "sha256": "74b44ffa8a57b70b45517be504386264f64e88c9bd49fd503450d145b801c261",
+      "bytes": 3458308
+    },
+    {
+      "path": "diary_2026-10-14.md",
+      "sha256": "e5e6277009f8f594c927d309628963db3d1f7218c3b14c6ea1a97b9b8687f39a",
+      "bytes": 40378
+    },
+    {
+      "path": "diary_tag_index.html",
+      "sha256": "09571680162a8d59e321009a98b3aec4e735862071495ab6f8ad81f0047d2cd5",
+      "bytes": 5827074
+    },
+    {
+      "path": "outputs/diary_20261014/FACTS.md",
+      "sha256": "b3f4ed9d100da4a1e8e0ec607e744b6a87a3f1cb369545c3c1a4aa076072b001",
+      "bytes": 17989
+    },
+    {
+      "path": "outputs/diary_20261014/chart_285A.png",
+      "sha256": "0148741a00bb9017e73f24e848357ed9b57a81b2a2cea997cfa84a23ae62617b",
+      "bytes": 44913
+    },
+    {
+      "path": "outputs/diary_20261014/chart_6857.png",
+      "sha256": "c0a99fef6fda62a585da14950c3939286bb071452eb983e4ce4e2bb4b37cda63",
+      "bytes": 53269
+    },
+    {
+      "path": "outputs/diary_20261014/chart_JP225YJPY.png",
+      "sha256": "05322cb02bce234958cdd05d3f25797ea2ccd219eaac7d2c91fe16b74382d35c",
+      "bytes": 64785
+    },
+    {
+      "path": "outputs/diary_20261014/chart_SNDK.png",
+      "sha256": "ec17497e815a64eeca183a60ebe235d3f21e6d47bbcb9719adf6f8bba8aa7f96",
+      "bytes": 44255
+    },
+    {
+      "path": "outputs/diary_20261014/chart_TSLA.png",
+      "sha256": "340c5876e314fa2cd8ef90f5e2432af4a263315a570adb4e56839f365e222998",
+      "bytes": 52986
+    },
+    {
+      "path": "outputs/diary_20261014/local_board_sources_manifest.json",
+      "sha256": "02c0e5e1dbfa791c9d70cefe60787bf0b3718c5bccb3cc6e3149eca9cf595ffc",
+      "bytes": 4211
+    },
+    {
+      "path": "outputs/diary_20261014/macro_0.png",
+      "sha256": "41f780a3abb71e70a012f87f999c30e9501ec9c8143d0c4e9dc0b0d48339c914",
+      "bytes": 25522
+    },
+    {
+      "path": "outputs/diary_20261014/macro_1.png",
+      "sha256": "6d5d6ff4dc1f00142f88f875df3377dd77a11e2b24fb54c5c628035e78e0a418",
+      "bytes": 29839
+    },
+    {
+      "path": "outputs/diary_20261014/macro_2.png",
+      "sha256": "4862fba1b3cf09f8edd80a9e5d17f62e7caa85e2f7ae0658dc1e484c57af1f8c",
+      "bytes": 28515
+    },
+    {
+      "path": "outputs/diary_20261014/macro_3.png",
+      "sha256": "98b8e25ab86230a61649c6dce99d2e249dc948f0c187ab43ab5deb8b1ed33736",
+      "bytes": 35478
+    },
+    {
+      "path": "outputs/diary_20261014/macro_4.png",
+      "sha256": "a5bd57fa0e3ea917f261f1fa134d524b923eb9ca0c92e94c37702e67fa36b96a",
+      "bytes": 31834
+    },
+    {
+      "path": "outputs/diary_20261014/market_context_sources_manifest.json",
+      "sha256": "87308b7224623e9c5fb25d2efe7f9107762423db85c0f3fb2fc3b3f7c8e76cb0",
+      "bytes": 4095
+    },
+    {
+      "path": "outputs/diary_20261014/memo_285A.md",
+      "sha256": "d814960a91442c12ac366458dbfbd5fd5e2cd661dab6323d6a87fc54451a93df",
+      "bytes": 2382
+    },
+    {
+      "path": "outputs/diary_20261014/memo_4498.md",
+      "sha256": "2e0b7749a6f28fb0b157157cafe4a1988ecfcb8796686e2e63ce69f406d70260",
+      "bytes": 563
+    },
+    {
+      "path": "outputs/diary_20261014/memo_6857.md",
+      "sha256": "6ed0a47fded0935e22c8ca72a675625faba259d26db53b1ea5ab9c9000744125",
+      "bytes": 2493
+    },
+    {
+      "path": "outputs/diary_20261014/memo_JP225YJPY.md",
+      "sha256": "3ad5e9bf834bd059c477d3413f3f23459c9deb1a8348ac6da2cde6b23380762b",
+      "bytes": 1487
+    },
+    {
+      "path": "outputs/diary_20261014/memo_SNDK.md",
+      "sha256": "33004c1db821c46e1d07366f373f93bdc6f99dbcf57b5220117533b20fdd098f",
+      "bytes": 1345
+    },
+    {
+      "path": "outputs/diary_20261014/memo_TSLA.md",
+      "sha256": "f7119db4a0c88a07bf0c94bf10513b39a3acabd54caf54e4d29548fd6460d8ec",
+      "bytes": 1830
+    },
+    {
+      "path": "outputs/diary_20261014/r2_sources_manifest.json",
+      "sha256": "17501a930eb3cfd6b708c3a2d4aaae3e536d608c8219cee0ee44283c6fb7dfd5",
+      "bytes": 1802
+    },
+    {
+      "path": "outputs/diary_20261014/retrospective_tags.json",
+      "sha256": "039f2cb600edbf31eed581b0d725e01137ba825f4b54a46452c39857f1cd842b",
+      "bytes": 3832
+    },
+    {
+      "path": "outputs/diary_20261014/sources_manifest.json",
+      "sha256": "3f4cddb7c3cc2c2afcf7d0fa756b7bf5d9da56b09056ca14f6ff881961764a44",
+      "bytes": 14998
+    },
+    {
+      "path": "shared/diary_ohlcv_replay.js",
+      "sha256": "deb5864727f5cbbac1b0a3693570f380a60a80b8150cc87ae32639687f209364",
+      "bytes": 23926
+    },
+    {
+      "path": "shared/diary_tag_search.css",
+      "sha256": "f206842ae263242e77c093877fb9ef907970944f16e9cbaf7061ad8c5a42867d",
+      "bytes": 5704
+    },
+    {
+      "path": "shared/diary_tag_search.js",
+      "sha256": "6ce6bbc66cc064efd91bd83b850f96ad9b9a4df123f713b965a71725e8f36308",
+      "bytes": 5709
+    },
+    {
+      "path": "shared/diary_index_charts.js",
+      "sha256": "fd5555cf48bc0d87e47dcb9fc5f87aec29b393f75e4e5d143d1b8fe637fc9b26",
+      "bytes": 17838
+    },
+    {
+      "path": "shared/diary_index_charts.css",
+      "sha256": "493abe91b2695831859e106fbde374cb7e8d12b59a2e5cf4c62da345068401b3",
+      "bytes": 848
+    },
+    {
+      "path": "shared/diary_ohlcv_replay_v2.js",
+      "sha256": "cc2c6a12a2355c4d7d60b2c7ee57921a591e7139be3560b490f527a19f7e3240",
+      "bytes": 33414
+    },
+    {
+      "path": "scripts/diary_index_replay.py",
+      "sha256": "4200c1e4231b98956c4cb96a241f9af5e094b1b556f1a49ea35e28d3690c9ea1",
+      "bytes": 5203
+    },
+    {
+      "path": "scripts/diary_index_buttons_20261014.py",
+      "sha256": "068236ba8aacde9137f000d61da70b4adeb12b9068aacd4d3c49fc6c5ad61ff4",
+      "bytes": 9063
+    },
+    {
+      "path": "templates/index_mtf_chart.json",
+      "sha256": "0f2e2187194f2c32e28d48a7a435582fdf46f4dcf9ae68091a6f217525ad16b4",
+      "bytes": 965
+    },
+    {
+      "path": "templates/diary_template_board_reading_9-15_30.md",
+      "sha256": "092a81de7c582a51fc0248bdcba87b8c4fa0814dbd34d107961449fb2eb3fa59",
+      "bytes": 5695
+    },
+    {
+      "path": "diary_creation_rules.md",
+      "sha256": "ab85c1f0a87c9259ca019a8c787b0351ee9526748214f48d5c4d9dad93685e3c",
+      "bytes": 45685
+    },
+    {
+      "path": "outputs/diary_20261014/index_H1_after.png",
+      "sha256": "13ae63a0438c610e2587354c77195348b71aa771b31f2c4313a672d1186046e5",
+      "bytes": 110763
+    },
+    {
+      "path": "outputs/diary_20261014/index_H1_before.png",
+      "sha256": "bb1e269d8d992bd44a170167ab07a69c235a1b1d14c8c124318fa6287823d182",
+      "bytes": 99581
+    },
+    {
+      "path": "outputs/diary_20261014/index_D1_before.png",
+      "sha256": "ac8952a42e9ebb65e9c1e3b1a71b1b9fbd5f3cf74ebaec9adfa31c34b2059b61",
+      "bytes": 90774
+    },
+    {
+      "path": "outputs/diary_20261014/index_M5_after.png",
+      "sha256": "dfc13c6670d55098a8d483b843fe91a49a2bd0291667ace5853c6823077c8fdf",
+      "bytes": 117697
+    },
+    {
+      "path": "outputs/diary_20261014/index_M5_before.png",
+      "sha256": "e1ded68ff528d03b8351b23b470c551e361ac8293d10e6847e0170c8afad335e",
+      "bytes": 106938
+    },
+    {
+      "path": "outputs/diary_20261014/index_snapshots_mobile.png",
+      "sha256": "0bb72ec61624088bfbdf857d19617aa68ce1c9a679f65bca82a5f0bb3ebf3409",
+      "bytes": 99647
+    },
+    {
+      "path": "outputs/diary_20261014/index_D1_after.png",
+      "sha256": "89f2d64bff08929b59655322d5664a9bcca16dde0076a8e09a2df82fa79f8a81",
+      "bytes": 102002
+    },
+    {
+      "path": "outputs/diary_20261014/index_replay_sources.json",
+      "sha256": "c758b352c46afe00586931aaea6b47fb995996e9ae694929ea03e7d3d5babdcb",
+      "bytes": 2453
+    },
+    {
+      "path": "outputs/diary_20261014/index_snapshot_capture.json",
+      "sha256": "f0d5d22112ed055203c2ea2fea78d6e2323be23b858e190bbe573874fb5506be",
+      "bytes": 10162
+    },
+    {
+      "path": "outputs/diary_20261014/chart_data.json",
+      "sha256": "b823d45f229835bae354982d16b5ddc6deac07f26459cf811f99c23c403ab410",
+      "bytes": 3355295
+    },
+    {
+      "path": "outputs/diary_20261014/render_today.py",
+      "sha256": "dda9fe9baaa25afd9f4f9b13463d7d88d4d07f62d0d99458e9604e86c18809a8",
+      "bytes": 38191
+    },
+    {
+      "path": "outputs/diary_20261014/timeframe_sources_manifest.json",
+      "sha256": "288e1b38b9fd424d2e9dc1390d1aa4e8cdcc2f0ee7127cb8ffdb38247cb783d7",
+      "bytes": 2375
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+      "sha256": "612ac64237c6ba6c79423fea5a9a67277f1494d378ce8a28cbfb3164570ed0fb",
+      "bytes": 7724399
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_H1.csv",
+      "sha256": "acb0ade149b9e700faeea5c4e0169ff8f6277fdc6c0d6e107b68e966876ae29e",
+      "bytes": 654566
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_D1.csv",
+      "sha256": "dc6e9aea99eda7561cbda3528c440e3092af43962f10465e8498545ebbdd8dc2",
+      "bytes": 68282
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_W1.csv",
+      "sha256": "7f990ba3cd27c2da605b95e492c09fd406e0fd315f3ee1d1c12b799a1ed13e14",
+      "bytes": 13888
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+      "sha256": "a03e9a614e2ce4aac612840cd4d5ec110cf9b77dde7363de7b2ca1d628a7b291",
+      "bytes": 7671689
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_H1.csv",
+      "sha256": "31de65da91d8781b6bfa272b0b2d233de1f509f1b491f854a8924ac813fb0466",
+      "bytes": 649842
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_D1.csv",
+      "sha256": "264d599db251f9de1de60dd000e653128379e383d122f04339e68e9908989c3c",
+      "bytes": 68686
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_W1.csv",
+      "sha256": "6a182a3ed5c5645509cce9a1e66329ddb486a79d4020940bcee9b26257fe6e57",
+      "bytes": 13949
+    }
+  ]
+}

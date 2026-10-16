@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-16",
+  "root": "[local path omitted]",
+  "verification_methods": [
+    "Python source-data semantic assertions",
+    "Node assertions against the browser search-matching module",
+    "generated HTML invariants",
+    "local relative-link, asset, and HTML-fragment scan"
+  ],
+  "counts": {
+    "diary_catalog_entries": 146,
+    "unique_diary_ids": 146,
+    "unique_diary_dates": 142,
+    "scene_records": 198,
+    "unique_scene_case_ids": 198,
+    "unique_scene_instrument_codes": 34,
+    "scene_symbol_placeholder_values": [
+      "不明",
+      "複数"
+    ],
+    "scene_symbol_values_including_placeholders": 36,
+    "raw_tag_forms_in_scenes": 149,
+    "canonical_scene_tags": 147,
+    "tag_definition_records": 147,
+    "unclassified_diary_catalog_entries": 36,
+    "execution_status_counts_by_scene": {
+      "DEMO（口座種別未確認）": 1,
+      "Paper": 4,
+      "Paper／DEMO（区分未確認）": 1,
+      "取消・未約定": 2,
+      "実約定": 161,
+      "後日仮説": 5,
+      "明示的見送り": 7,
+      "未実行候補": 6,
+      "気づけなかった": 1,
+      "環境観察": 2,
+      "観察のみ": 8
+    },
+    "record_type_counts_by_scene": {
+      "environment_observation": 2,
+      "legacy_case": 191,
+      "paper_trade": 1,
+      "retrospective_hypothesis": 1,
+      "retrospective_tag": 3
+    },
+    "taxonomy_evidence_rows": 24,
+    "taxonomy_evidence_rows_without_current_scene_link": 12
+  },
+  "checks": [
+    {
+      "name": "confirmed day-role-reversal alias has identical unique scene set",
+      "status": "passed",
+      "expected": [
+        "2026-10-14:6857:continuous-watch-missed-entry",
+        "2026-10-14:285A:continuous-watch-missed-entry"
+      ],
+      "actual": [
+        "2026-10-14:6857:continuous-watch-missed-entry",
+        "2026-10-14:285A:continuous-watch-missed-entry"
+      ],
+      "detail": "Alias resolves to one canonical group; no duplicate scene rows."
+    },
+    {
+      "name": "day role-reversal scene set",
+      "status": "passed",
+      "expected": [
+        "2026-10-14:285A:continuous-watch-missed-entry",
+        "2026-10-14:6857:continuous-watch-missed-entry"
+      ],
+      "actual": [
+        "2026-10-14:285A:continuous-watch-missed-entry",
+        "2026-10-14:6857:continuous-watch-missed-entry"
+      ],
+      "detail": ""
+    },
+    {
+      "name": "285A tag and ticker are evaluated on the same scene",
+      "status": "passed",
+      "expected": [
+        "2026-10-14:285A:continuous-watch-missed-entry"
+      ],
+      "actual": [
+        "2026-10-14:285A:continuous-watch-missed-entry"
+      ],
+      "detail": ""
+    },
+    {
+      "name": "6857 cannot leak into 285A query",
+      "status": "passed",
+      "expected": false,
+      "actual": false,
+      "detail": ""
+    },
+    {
+      "name": "failure composite absent from default RR search for 5803",
+      "status": "passed",
+      "expected": [],
+      "actual": [],
+      "detail": ""
+    },
+    {
+      "name": "failure composite appears only when explicitly enabled",
+      "status": "passed",
+      "expected": [
+        "2026-10-15:5803:countertrend-long-stop"
+      ],
+      "actual": [
+        "2026-10-15:5803:countertrend-long-stop"
+      ],
+      "detail": ""
+    },
+    {
+      "name": "Paper failure composite remains one scene, not four trades",
+      "status": "passed",
+      "expected": 1,
+      "actual": 1,
+      "detail": ""
+    },
+    {
+      "name": "BB COMP JP225 includes confirmed 2026-08-12 example",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "BB COMP default JP225 direct tags",
+      "status": "passed",
+      "expected": [
+        "2026-08-12:JP225:bb-comp-1h",
+        "2026-10-15:JP225:bb-compression-down"
+      ],
+      "actual": [
+        "2026-08-12:JP225:bb-comp-1h",
+        "2026-10-15:JP225:bb-compression-down"
+      ],
+      "detail": ""
+    },
+    {
+      "name": "range contraction scene does not enter default BB COMP query",
+      "status": "passed",
+      "expected": false,
+      "actual": false,
+      "detail": ""
+    },
+    {
+      "name": "BB COMP + range AND returns no accidental cross-scene match",
+      "status": "passed",
+      "expected": [],
+      "actual": [],
+      "detail": ""
+    },
+    {
+      "name": "multi-tag OR explicitly includes either direct tag",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "related range candidate is opt-in",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "BB COMP H1 filter preserves explicit 2026-08-12 timeframe",
+      "status": "passed",
+      "expected": [
+        "2026-08-12:JP225:bb-comp-1h"
+      ],
+      "actual": [
+        "2026-08-12:JP225:bb-comp-1h"
+      ],
+      "detail": ""
+    },
+    {
+      "name": "BB width range is stored as original text, not min/max",
+      "status": "passed",
+      "expected": "約599〜641",
+      "actual": "約599〜641",
+      "detail": ""
+    },
+    {
+      "name": "Paper loss is kept outside real-account P&L",
+      "status": "passed",
+      "expected": false,
+      "actual": false,
+      "detail": ""
+    },
+    {
+      "name": "Paper record still uses Paper execution class",
+      "status": "passed",
+      "expected": "Paper",
+      "actual": "Paper",
+      "detail": ""
+    },
+    {
+      "name": "6857 missed candidate stays unexecuted",
+      "status": "passed",
+      "expected": "未実行候補",
+      "actual": "未実行候補",
+      "detail": ""
+    },
+    {
+      "name": "6857 Paper order is separate and unfilled",
+      "status": "passed",
+      "expected": "未約定",
+      "actual": "未約定",
+      "detail": ""
+    },
+    {
+      "name": "unfilled Paper order is not the candidate trade",
+      "status": "passed",
+      "expected": false,
+      "actual": false,
+      "detail": ""
+    },
+    {
+      "name": "JP225 is the primary subject of BB observation",
+      "status": "passed",
+      "expected": "primary_observation_subject",
+      "actual": "primary_observation_subject",
+      "detail": ""
+    },
+    {
+      "name": "no strict parent-child taxonomy added",
+      "status": "passed",
+      "expected": [],
+      "actual": [],
+      "detail": ""
+    },
+    {
+      "name": "all current scene identifiers remain unique",
+      "status": "passed",
+      "expected": 198,
+      "actual": 198,
+      "detail": ""
+    },
+    {
+      "name": "tag-definition registry covers every indexed canonical tag",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "unclassified diary count stays in catalog",
+      "status": "passed",
+      "expected": 36,
+      "actual": 36,
+      "detail": ""
+    },
+    {
+      "name": "unmatched evidence not assigned synthetic IDs",
+      "status": "passed",
+      "expected": 12,
+      "actual": 12,
+      "detail": ""
+    },
+    {
+      "name": "unknown-symbol scenes remain separately searchable",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "aggregate multi-symbol scenes are separate from unknown",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "browser search matching module passes direct Node assertions",
+      "status": "passed",
+      "expected": "passed",
+      "actual": "passed",
+      "detail": ""
+    },
+    {
+      "name": "generated index exposes multi-tag controls",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "unknown and aggregate-symbol filters are available",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "generated index embeds data for file URL",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "generated index has one card per scene",
+      "status": "passed",
+      "expected": 198,
+      "actual": 198,
+      "detail": ""
+    },
+    {
+      "name": "responsive mobile layout rule is present",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "viewport meta is present for mobile layout",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    },
+    {
+      "name": "local diary-to-index bridge preserves query and fragment",
+      "status": "passed",
+      "expected": true,
+      "actual": true,
+      "detail": ""
+    }
+  ],
+  "javascript_search_module_test": {
+    "status": "passed",
+    "cases": 12,
+    "roleReversalScenes": 2,
+    "bbCompScenes": 2
+  },
+  "local_link_checks": [
+    {
+      "page": "diary_tag_index.html",
+      "checked_local_references": 1333,
+      "broken_files": [],
+      "broken_html_fragments": []
+    },
+    {
+      "page": "tag_approach_definitions/index.html",
+      "checked_local_references": 444,
+      "broken_files": [],
+      "broken_html_fragments": []
+    },
+    {
+      "page": "diary_2026-10-15.html",
+      "checked_local_references": 51,
+      "broken_files": [],
+      "broken_html_fragments": []
+    },
+    {
+      "page": "diary_2026-10-14.html",
+      "checked_local_references": 75,
+      "broken_files": [],
+      "broken_html_fragments": []
+    },
+    {
+      "page": "outputs/diary_tag_rollout/publish/diary_2026-08-12.html",
+      "checked_local_references": 28,
+      "broken_files": [],
+      "broken_html_fragments": []
+    },
+    {
+      "page": "outputs/diary_tag_rollout/publish/diary_tag_index.html",
+      "checked_local_references": 1,
+      "broken_files": [],
+      "broken_html_fragments": []
+    }
+  ],
+  "browser_qa": {
+    "status": "blocked_by_browser_security_policy",
+    "reason": "The browser rejected the file:// URL because only http/https are allowed and explicitly prohibited alternate surfaces or workarounds.",
+    "pc_visual_check": "not_performed",
+    "mobile_390px_visual_check": "not_performed",
+    "screenshots": [],
+    "chart_visual_check": "not_performed; local HTML and asset references were checked statically"
+  },
+  "modified_source_manifests": {
+    "scene_data_sha256": "9f5f8849ec81498af949afea6539ce1be5fb8e2327b218e3376d2817ab2ef8ae",
+    "diary_catalog_sha256": "0e81698e4031478c836107778b5c1cfaa9f6f26c5a2c084a651420d9a442d037",
+    "tag_dictionary_sha256": "8ee695a8f9d5f169ca577d2d2a236776dc35e38a293f7d438583c963dd996775"
+  },
+  "semantic_and_static_status": "passed",
+  "overall_status": "blocked_browser_qa"
+}

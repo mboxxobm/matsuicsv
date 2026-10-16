@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "2026-10-15:JP225:bb-compression-down",
+      "case_id": "2026-10-15:JP225:bb-compression-down",
+      "date": "2026-10-15",
+      "diary_id": "2026-10-15",
+      "record_type": "environment_observation",
+      "symbol": "JP225",
+      "title": "BB COMP後の下降トレンド継続の日",
+      "name": "日経225 / OANDA",
+      "time_label": "11:45・19:35の本人振り返り",
+      "tags": [
+        "BBコンプ",
+        "大きく下げた日",
+        "上昇失敗パターン",
+        "BBコンプ下降トレンド",
+        "下降トレンド継続"
+      ],
+      "aliases": [
+        "225Cash",
+        "日経平均",
+        "BBコンプレッション"
+      ],
+      "summary": "本人の11:45・19:35総括。BB幅約599〜641の収縮後に下落継続と分類。設定・測定時刻の一致は未確認。",
+      "classification_source": "本人の本日の明示分類＋GitHubの本人実況",
+      "execution_status": "環境観察",
+      "execution_confirmed": false,
+      "included_in_realized_pnl": false,
+      "outcome": {
+        "value": null,
+        "currency": "JPY",
+        "reported_text": "環境観察・売買損益なし。"
+      },
+      "diary_url": "diary_2026-10-15.html#symbol-JP225YJPY",
+      "diary_href": "diary_2026-10-15.html",
+      "scene_href": "diary_2026-10-15.html#symbol-JP225YJPY",
+      "memo_url": "outputs/diary_20261015/memo_JP225YJPY.md"
+    },
+    {
+      "id": "2026-10-15:5803:round-support-failure-sell",
+      "case_id": "2026-10-15:5803:round-support-failure-sell",
+      "date": "2026-10-15",
+      "diary_id": "2026-10-15",
+      "record_type": "retrospective_hypothesis",
+      "symbol": "5803",
+      "title": "フジクラ・4,700円の支持失敗SELL仮説",
+      "name": "フジクラ",
+      "time_label": "09:42〜09:48の30秒足を事後検証",
+      "tags": [
+        "キリ番",
+        "支持失敗",
+        "戻り売り",
+        "大衆狩り仮説",
+        "下降トレンド継続"
+      ],
+      "summary": "本人追記：キリ番での大衆狩りを狙ったSELLの方が期待値が高いのでは。日誌では支持失敗と戻りでの抵抗化として検証。",
+      "classification_source": "本人の今回の追記＋歩み値からの事後分析",
+      "execution_status": "未実行候補",
+      "execution_confirmed": false,
+      "included_in_realized_pnl": false,
+      "outcome": {
+        "reported_text": "未実行のSELL仮説。ENTRY・LC・TP・数量・統計的期待値は未確定。実損益への加算なし。"
+      },
+      "diary_url": "diary_2026-10-15.html#index-trade-review",
+      "diary_href": "diary_2026-10-15.html",
+      "scene_href": "diary_2026-10-15.html#index-trade-review",
+      "aliases": [
+        "ふじくら",
+        "4700",
+        "キリ番大衆狩り"
+      ],
+      "memo_url": "outputs/diary_20261015/index_trade_review.md"
+    },
+    {
+      "id": "2026-10-15:5803:countertrend-long-stop",
+      "case_id": "2026-10-15:5803:countertrend-long-stop",
+      "date": "2026-10-15",
+      "diary_id": "2026-10-15",
+      "record_type": "paper_trade",
+      "symbol": "5803",
+      "title": "フジクラ・下げ止まり未確認のロング損切り",
+      "name": "フジクラ",
+      "time_label": "09:38:10〜09:45:19 JST",
+      "tags": [
+        "下げ止まり未確認",
+        "出来高ダイバージェンス",
+        "逆行ロング",
+        "ロールリバーサル失敗",
+        "Paper Trading"
+      ],
+      "aliases": [
+        "ふじくら",
+        "フジクラ",
+        "5803"
+      ],
+      "summary": "30秒足のロールリバーサルを期待して4回買い、400株。平均4,715円から4,688円で決済。実況と同じPaper取引と本人確認済み。",
+      "classification_source": "GitHub本人実況の分類＋約定CSV照合",
+      "execution_status": "Paper",
+      "execution_confirmed": true,
+      "included_in_realized_pnl": false,
+      "outcome": {
+        "value": -10800,
+        "currency": "JPY",
+        "reported_text": "Paper実現−10,800円。実口座の損益は未確認。"
+      },
+      "diary_url": "diary_2026-10-15.html#symbol-5803",
+      "diary_href": "diary_2026-10-15.html",
+      "scene_href": "diary_2026-10-15.html#symbol-5803",
+      "memo_url": "outputs/diary_20261015/memo_5803.md"
+    },
+    {
+      "id": "2026-10-14:TSLA:continuous-watch-missed-entry",
+      "date": "2026-10-14",
+      "symbol": "TSLA",
+      "name": "テスラ",
+      "time_label": "03:51–03:52 JST（前夜NYの候補）",
+      "tags": [
+        "張り付きが必要なエントリーポイント",
+        "エントリーできなかった",
+        "本人振り返り",
+        "ピンバー反転候補",
+        "夜間監視"
+      ],
+      "aliases": [
+        "てすら",
+        "TESLA",
+        "張り付いていないと見つけられなかった",
+        "張り付いていれば見つけられた",
+        "常時監視",
+        "見逃したエントリー"
+      ],
+      "summary": "373ドル付近の下値反応とロング候補。本人が今回、張り付いていないと見つけられなかったエントリーポイントとして指定。",
+      "note": "本人の振り返りによる未実行候補。03:52は安値切り上げを確認できるが、前足の高値更新は未達。正確な仮想ENTRY・LC・数量・利益は未確定、実損益に加算しない。",
+      "diary_url": "diary_2026-10-14.html#symbol-TSLA",
+      "memo_url": "outputs/diary_20261014/memo_TSLA.md",
+      "classification_source": "本人の今回のタグ指定と振り返り",
+      "execution_confirmed": false,
+      "included_in_realized_pnl": false
+    },
+    {
+      "id": "2026-10-14:6857:continuous-watch-missed-entry",
+      "date": "2026-10-14",
+      "symbol": "6857",
+      "name": "アドバンテスト",
+      "time_label": "09:25頃 → 09:34:30の陽線 → 調整後 / 振り返り10:10頃（JST）",
+      "tags": [
+        "張り付きが必要なエントリーポイント",
+        "エントリーできなかった",
+        "本人振り返り",
+        "ロールリバーサル",
+        "調整後ロング"
+      ],
+      "aliases": [
+        "あどばんてすと",
+        "ADVANTEST",
+        "アドバンステスト",
+        "張り付いていないと見つけられなかった",
+        "張り付いていれば見つけられた",
+        "常時監視",
+        "見逃したエントリー"
+      ],
+      "summary": "陰線が発生した価格帯を出来高を伴う陽線が回復。上昇2波の調整後、ロング3波を狙えたと本人が振り返る。希望価格は40,630円。",
+      "note": "本人指定の未実行候補。既存のPaper買い指値40,650円は未約定で取消。調整後の仮想ENTRY・LC・仮想利益額は未確定、実損益に加算しない。",
+      "diary_url": "diary_2026-10-14.html#symbol-6857",
+      "memo_url": "outputs/diary_20261014/memo_6857.md",
+      "classification_source": "本人の今回のタグ指定と振り返り",
+      "execution_confirmed": false,
+      "included_in_realized_pnl": false
+    },
+    {
+      "id": "2026-10-14:285A:continuous-watch-missed-entry",
+      "date": "2026-10-14",
+      "symbol": "285A",
+      "name": "キオクシア",
+      "time_label": "09:40:30 → 09:46:30 / 利確候補10:06頃（JST）",
+      "tags": [
+        "張り付きが必要なエントリーポイント",
+        "エントリーできなかった",
+        "本人振り返り",
+        "デイロールリバーサル",
+        "指数逆行"
+      ],
+      "aliases": [
+        "きおくしあ",
+        "KIOXIA",
+        "張り付いていないと見つけられなかった",
+        "張り付いていれば見つけられた",
+        "常時監視",
+        "見逃したエントリー"
+      ],
+      "summary": "出来高を伴う陽線から陰線へのデイロールリバーサル。転換後の下落1波を売り、前日終値付近を狙う候補だったと本人が振り返る。",
+      "note": "本人指定の未実行候補。指数に逆らうため採用したエントリー件数には含めない。実損益に加算しない。出来高・候補価格の相違は銘柄本文へ併記。",
+      "diary_url": "diary_2026-10-14.html#symbol-285A",
+      "memo_url": "outputs/diary_20261014/memo_285A.md",
+      "classification_source": "本人の今回のタグ指定と振り返り",
+      "execution_confirmed": false,
+      "included_in_realized_pnl": false
+    }
+  ],
+  "tag_definition": {
+    "張り付きが必要なエントリーポイント": "本人が、常時監視していれば発見できたと振り返る未実行のエントリー候補。客観的な成立判定・約定・利益の証明とは分ける。"
+  }
+}

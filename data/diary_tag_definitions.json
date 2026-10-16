@@ -1,0 +1,4582 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-10-16",
+  "instructions": "出典のある意味と本人が定めた取り組み方を分ける。不明は空欄・未確定とし、架空の成立条件や損益を記入しない。",
+  "definition_template": {
+    "purpose": "何を検索するタグか",
+    "inclusion_and_exclusion": "含める記録／類似・否定・先行サインの扱い",
+    "observations": "銘柄、価格帯、足、指標設定、時刻、計測方法",
+    "entry_conditions": "本人の実行条件。未確認は未確定",
+    "wait_conditions": "本人の見送り・待機条件。未確認は未確定",
+    "exit_conditions": "本人の撤退条件。未確認は未確定",
+    "execution_context": "実口座／Paper／DEMO／観察／未実行候補等",
+    "outcome_and_execution_review": "パターン結果と執行評価、実損益区分",
+    "evidence_scene_ids": "根拠scene/case id、直接出典、境界例、不一致",
+    "unresolved_questions_and_history": "未決事項、更新者・日付・変更範囲"
+  },
+  "tags": [
+    {
+      "tag": "absorption",
+      "display_name": "absorption",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "actual",
+      "display_name": "実約定",
+      "aliases": [],
+      "dictionary_meaning": "日誌に実取引として記録された場面。CSVとの独立照合状態を別に確認する。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "BB COMP",
+      "display_name": "BB COMP",
+      "aliases": [
+        "BBコンプ",
+        "BBコンプレッション"
+      ],
+      "dictionary_meaning": "ボリンジャーバンド幅の収縮を本人がBB COMPとして分類した場面の検索タグ。約600円幅は本人が該当確認した一事例で、共通の数値しきい値ではない。",
+      "definition_source_ids": [],
+      "definition_status": "個別定義書あり",
+      "definition_file": "bb_comp.md",
+      "approach": {
+        "status": "既存定義書を参照",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "BBコンプ下降トレンド",
+      "display_name": "BBコンプ下降トレンド",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "breakout",
+      "display_name": "breakout",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "cancelled_order",
+      "display_name": "cancelled_order",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "chase",
+      "display_name": "chase",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "chasing",
+      "display_name": "追いかけ",
+      "aliases": [],
+      "dictionary_meaning": "伸びた後を追ったと記録された事例。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "chasing_signal",
+      "display_name": "chasing_signal",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "classification_boundary",
+      "display_name": "classification_boundary",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "confirmation",
+      "display_name": "confirmation",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "countertrend",
+      "display_name": "countertrend",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "data_conflict",
+      "display_name": "data_conflict",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "DEMO",
+      "display_name": "DEMO",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "demo",
+      "display_name": "demo",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "direction_flip",
+      "display_name": "方向転換",
+      "aliases": [],
+      "dictionary_meaning": "LONG/SHORTを繰り返した記録。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "divergence",
+      "display_name": "divergence",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "double_top",
+      "display_name": "double_top",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "draft",
+      "display_name": "draft",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "early_entry",
+      "display_name": "先回り",
+      "aliases": [],
+      "dictionary_meaning": "反転・支持などの確認より前に入ったとタグ付け。索引整理を含む。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "early_exit",
+      "display_name": "早期利確",
+      "aliases": [],
+      "dictionary_meaning": "本人が利確の早さを振り返った事例。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "earnings",
+      "display_name": "earnings",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "entry_reason_unstated",
+      "display_name": "entry_reason_unstated",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "ETF",
+      "display_name": "ETF",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "evidence_conflict",
+      "display_name": "evidence_conflict",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "execution_unconfirmed",
+      "display_name": "execution_unconfirmed",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "failed_breakout",
+      "display_name": "failed_breakout",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "failed_reversal",
+      "display_name": "failed_reversal",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "failed_support",
+      "display_name": "failed_support",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "Fleming",
+      "display_name": "Fleming",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "fleming_sell",
+      "display_name": "フレミングセル",
+      "aliases": [],
+      "dictionary_meaning": "本資料内で研究用に整理された呼称。9/7定義資料は、上段リテスト失敗と下方通過を示す候補として定義し、一般的サインとは扱わない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "forex",
+      "display_name": "forex",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "gap",
+      "display_name": "gap",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "gap_down",
+      "display_name": "gap_down",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "gap_up",
+      "display_name": "gap_up",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "high_volatility",
+      "display_name": "high_volatility",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "hypothetical",
+      "display_name": "hypothetical",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "impulsive_entry",
+      "display_name": "impulsive_entry",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "index_context",
+      "display_name": "index_context",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "index_divergence",
+      "display_name": "指数との逆行・不一致",
+      "aliases": [],
+      "dictionary_meaning": "個別銘柄と指数・ETFの向きが異なる記録。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "index_sync",
+      "display_name": "指数連動",
+      "aliases": [],
+      "dictionary_meaning": "指数または関連ETFとの方向一致を記録する検索語。1321 ETFと日経225指数は同一データではない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "indicator",
+      "display_name": "indicator",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "JP225",
+      "display_name": "JP225",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "late_entry",
+      "display_name": "late_entry",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "long",
+      "display_name": "long",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "loss_cut",
+      "display_name": "loss_cut",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "low_volatility",
+      "display_name": "low_volatility",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "missed_opportunity",
+      "display_name": "見逃し",
+      "aliases": [],
+      "dictionary_meaning": "本人申告の機会認識漏れ。未約定であり損益なし。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "missed_signal",
+      "display_name": "missed_signal",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "missing_stop",
+      "display_name": "missing_stop",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "mixed",
+      "display_name": "mixed",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_confirmation",
+      "display_name": "no_confirmation",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_execution",
+      "display_name": "no_execution",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_retest",
+      "display_name": "no_retest",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_reversal_confirmation",
+      "display_name": "反転確認不足",
+      "aliases": [],
+      "dictionary_meaning": "下げ止まりや反転の確認が揃わないと記録された。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_support_confirmation",
+      "display_name": "支持確認不足",
+      "aliases": [],
+      "dictionary_meaning": "支持候補に触れたことと支持反応の成立を分ける。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "no_trade",
+      "display_name": "no_trade",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "not_executed",
+      "display_name": "not_executed",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "not_filled",
+      "display_name": "not_filled",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "NY",
+      "display_name": "NY",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "observation",
+      "display_name": "observation",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "opening",
+      "display_name": "opening",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "opening_chase",
+      "display_name": "opening_chase",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "opening_chase_risk",
+      "display_name": "opening_chase_risk",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "order_block",
+      "display_name": "オーダーブロック",
+      "aliases": [],
+      "dictionary_meaning": "原文の呼称を保持。元資料で定義が確認できない場合は意味を拡張しない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "orderbook",
+      "display_name": "orderbook",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "overshoot",
+      "display_name": "overshoot",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "oversizing",
+      "display_name": "oversizing",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "overtrading",
+      "display_name": "売買過多",
+      "aliases": [],
+      "dictionary_meaning": "回数増加を課題として記録した事例。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "Paper Trading",
+      "display_name": "Paper Trading",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "paper_trading",
+      "display_name": "paper_trading",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "pennant",
+      "display_name": "pennant",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "pinball_reversal",
+      "display_name": "pinball_reversal",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "poor_risk_reward",
+      "display_name": "poor_risk_reward",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "position_sizing",
+      "display_name": "position_sizing",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "posthoc",
+      "display_name": "posthoc",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "posthoc_classification",
+      "display_name": "posthoc_classification",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "posthoc_review",
+      "display_name": "posthoc_review",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "process_mismatch",
+      "display_name": "process_mismatch",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "pullback",
+      "display_name": "pullback",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "range",
+      "display_name": "range",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "range_center",
+      "display_name": "range_center",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "range_edge",
+      "display_name": "range_edge",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "recovery",
+      "display_name": "recovery",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "reentry",
+      "display_name": "再エントリー",
+      "aliases": [],
+      "dictionary_meaning": "同一銘柄・同方向等の再エントリー課題。別場面の場合は独立事例。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "resistance",
+      "display_name": "resistance",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "retest",
+      "display_name": "retest",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "revenge_trade",
+      "display_name": "revenge_trade",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "reversal",
+      "display_name": "reversal",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "reversal_churn",
+      "display_name": "reversal_churn",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "risk_management",
+      "display_name": "risk_management",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "risk_reward",
+      "display_name": "risk_reward",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "round_number",
+      "display_name": "round_number",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "same_minute",
+      "display_name": "same_minute",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "scenario_only",
+      "display_name": "scenario_only",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "sector_sync",
+      "display_name": "sector_sync",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "self_report",
+      "display_name": "self_report",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "separate_account",
+      "display_name": "separate_account",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "session_boundary",
+      "display_name": "session_boundary",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "session_gap",
+      "display_name": "session_gap",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "short",
+      "display_name": "short",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "short_term",
+      "display_name": "short_term",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "slippage",
+      "display_name": "slippage",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "source_conflict",
+      "display_name": "source_conflict",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "source_pairing",
+      "display_name": "source_pairing",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "split_fills",
+      "display_name": "split_fills",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "SR_flip",
+      "display_name": "サポレジ転換",
+      "aliases": [],
+      "dictionary_meaning": "支持と抵抗の役割転換を表す原文語。時間足・価格は個別原文を参照。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "support",
+      "display_name": "support",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "support_bounce",
+      "display_name": "支持反発",
+      "aliases": [],
+      "dictionary_meaning": "支持候補からの反応を扱う検索語。正式な戦略定義ではない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "support_break",
+      "display_name": "support_break",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "support_failure",
+      "display_name": "support_failure",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "swing",
+      "display_name": "swing",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "T2L",
+      "display_name": "T2L",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "TETRA",
+      "display_name": "TETRA",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "TETRA1",
+      "display_name": "TETRA1 SELL",
+      "aliases": [],
+      "dictionary_meaning": "9月の日誌群ではT1Sの大分類。P3等の個別P-IDと同一視しない。詳細は分類資料へのリンクを参照。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "time_unknown",
+      "display_name": "time_unknown",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "trigger_unstated",
+      "display_name": "trigger_unstated",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "unit_unknown",
+      "display_name": "unit_unknown",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "unverified",
+      "display_name": "unverified",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "volume",
+      "display_name": "volume",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "volume_divergence",
+      "display_name": "volume_divergence",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "VWAP",
+      "display_name": "VWAP",
+      "aliases": [],
+      "dictionary_meaning": "原文にVWAPが記載された事例の検索語。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "wait",
+      "display_name": "wait",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "wait_for_confirmation",
+      "display_name": "wait_for_confirmation",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "waited",
+      "display_name": "待機",
+      "aliases": [],
+      "dictionary_meaning": "条件待ちを明記した行動タグ。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "waited_after_loss",
+      "display_name": "waited_after_loss",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "wick",
+      "display_name": "wick",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "エントリーできなかった",
+      "display_name": "エントリーできなかった",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "キリ番",
+      "display_name": "キリ番",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "ピンバー反転候補",
+      "display_name": "ピンバー反転候補",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "ロールリバーサル",
+      "display_name": "ロールリバーサル",
+      "aliases": [
+        "でいろーるりばーさる",
+        "デイロールリバーサル"
+      ],
+      "dictionary_meaning": "ロールリバーサルを扱う日誌・場面の共通検索分類。「デイロールリバーサル」も同じ分類にまとめる。具体的な成立条件、時間足、売買ルールは個別の出典と定義書を参照。",
+      "definition_source_ids": [],
+      "definition_status": "個別定義書あり",
+      "definition_file": "role_reversal.md",
+      "approach": {
+        "status": "既存定義書を参照",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "ロールリバーサル失敗",
+      "display_name": "ロールリバーサル失敗",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "上昇失敗パターン",
+      "display_name": "上昇失敗パターン",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "下げ止まり未確認",
+      "display_name": "下げ止まり未確認",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "下降トレンド継続",
+      "display_name": "下降トレンド継続",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "仮想値を実績化しない",
+      "display_name": "仮想値を実績化しない",
+      "aliases": [],
+      "dictionary_meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "出来高ダイバージェンス",
+      "display_name": "出来高ダイバージェンス",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "夜間監視",
+      "display_name": "夜間監視",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "大きく下げた日",
+      "display_name": "大きく下げた日",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "大衆狩り仮説",
+      "display_name": "大衆狩り仮説",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "張り付きが必要なエントリーポイント",
+      "display_name": "張り付きが必要なエントリーポイント",
+      "aliases": [],
+      "dictionary_meaning": "本人が、常時監視していれば発見できたと振り返る未実行のエントリー候補。客観的な成立判定・約定・利益の証明とは分ける。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "戻り売り",
+      "display_name": "戻り売り",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "指数逆行",
+      "display_name": "指数逆行",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "支持失敗",
+      "display_name": "支持失敗",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "本人振り返り",
+      "display_name": "本人振り返り",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "調整後ロング",
+      "display_name": "調整後ロング",
+      "aliases": [],
+      "dictionary_meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "definition_source_ids": [],
+      "definition_status": "辞書に意味記載・取り組み方未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    },
+    {
+      "tag": "逆行ロング",
+      "display_name": "逆行ロング",
+      "aliases": [],
+      "dictionary_meaning": "",
+      "definition_source_ids": [],
+      "definition_status": "scene記載のみ・定義未記入",
+      "definition_file": null,
+      "approach": {
+        "status": "未記入",
+        "purpose": "",
+        "inclusion_and_exclusion": [],
+        "observations": [],
+        "entry_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "wait_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "exit_conditions": {
+          "status": "未確定",
+          "items": []
+        },
+        "execution_context": [],
+        "outcome_and_execution_review": "",
+        "evidence_scene_ids": [],
+        "unresolved_questions_and_history": []
+      }
+    }
+  ]
+}

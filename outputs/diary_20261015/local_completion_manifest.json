@@ -1,0 +1,439 @@
+{
+  "date": "2026-10-15",
+  "status": "本番・提供資料時点まで・未公開／FTP別工程",
+  "js_errors": [],
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "links": {
+    "links": 51,
+    "unresolved": []
+  },
+  "files": [
+    {
+      "path": "diary_2026-10-15.html",
+      "sha256": "ad4e7a25e7a254effb94a200ef4670a970f521aa65be4599846cede62102a6b0",
+      "bytes": 11639861
+    },
+    {
+      "path": "diary_2026-10-15.md",
+      "sha256": "647d32233cec53630f4fef4c2ee4c082098f04e4c44edf88fafc04bc89987450",
+      "bytes": 47909
+    },
+    {
+      "path": "shared/diary_trading_time.js",
+      "sha256": "dc049375bece2c7248a247533bf303cc140a94ab89b73bd379bbcfce26a44680",
+      "bytes": 2428
+    },
+    {
+      "path": "shared/diary_ohlcv_replay_v2.js",
+      "sha256": "cc2c6a12a2355c4d7d60b2c7ee57921a591e7139be3560b490f527a19f7e3240",
+      "bytes": 33414
+    },
+    {
+      "path": "templates/index_mtf_chart.json",
+      "sha256": "0f2e2187194f2c32e28d48a7a435582fdf46f4dcf9ae68091a6f217525ad16b4",
+      "bytes": 965
+    },
+    {
+      "path": "templates/diary_template_board_reading_9-15_30.md",
+      "sha256": "092a81de7c582a51fc0248bdcba87b8c4fa0814dbd34d107961449fb2eb3fa59",
+      "bytes": 5695
+    },
+    {
+      "path": "scripts/diary_index_mtf.py",
+      "sha256": "e82971c9173d743f260bfc31b8f3431d01eb9bba572c4f7bfba1497db729a691",
+      "bytes": 4827
+    },
+    {
+      "path": "outputs/diary_20261015/memo_1321.md",
+      "sha256": "ee6a6ec06cfc4b398da9e4dccc382fb929bc40692e97e5eed515476d5e166f46",
+      "bytes": 934
+    },
+    {
+      "path": "outputs/diary_20261015/memo_1570.md",
+      "sha256": "e2fdaf2bdd7e3705cd8b104e3ac713ba24681360e8fe1cc916ef7764014d928a",
+      "bytes": 1046
+    },
+    {
+      "path": "outputs/diary_20261015/memo_JP225YJPY.md",
+      "sha256": "bf636a2221bbc5539c0fdcd8d83a767f6e272a5fb6f46129f435878b8e2130c6",
+      "bytes": 1766
+    },
+    {
+      "path": "outputs/diary_20261015/memo_9984.md",
+      "sha256": "27900a27d79793ea9fc2423a89493f06fc674b4b8a25b18cf265e7b3d687ebd3",
+      "bytes": 953
+    },
+    {
+      "path": "outputs/diary_20261015/memo_7974.md",
+      "sha256": "2fc6a245d62d8566636fe091e9fd63cd35a1b67d98b808e2306743944d753150",
+      "bytes": 846
+    },
+    {
+      "path": "outputs/diary_20261015/memo_5803.md",
+      "sha256": "12316cd953c1a32d15f34a2367fb45d3bee4c91f54d6e2f1c4377477f1ae3b67",
+      "bytes": 3113
+    },
+    {
+      "path": "outputs/diary_20261015/FACTS.md",
+      "sha256": "3f4284161a11bf80325a4d733d8ed374037c14c3bd28946d9802f56e667c5897",
+      "bytes": 27825
+    },
+    {
+      "path": "outputs/diary_20261015/memo_7203.md",
+      "sha256": "a735513bead9ad2f376c18d85ded41ef4ff72d566e6751a7fb8e6305a2347114",
+      "bytes": 846
+    },
+    {
+      "path": "outputs/diary_20261015/index_trade_review.md",
+      "sha256": "a50e5124878f37608909f9191d7a46428dbcc0a2060b15b92ad6272942b54d91",
+      "bytes": 6460
+    },
+    {
+      "path": "outputs/diary_20261015/memo_6976.md",
+      "sha256": "cadf93ec165aa7687d81a3bd9c72a79fa8cfb2c8139c57927b21218f03828438",
+      "bytes": 900
+    },
+    {
+      "path": "outputs/diary_20261015/memo_6857.md",
+      "sha256": "30e2fed09a97ec953e39b3fbf82256a1f9aa4a9f454d1cfadb4d63d0b10e6886",
+      "bytes": 1146
+    },
+    {
+      "path": "outputs/diary_20261015/memo_285A.md",
+      "sha256": "43b73d7e39339bdb4c3af671e8a5a2053364291b422d615ed4059122b1cb4933",
+      "bytes": 1169
+    },
+    {
+      "path": "outputs/diary_20261015/index_JP225_mobile.png",
+      "sha256": "23c61c0a181717fadca387c007d70fd1a7293c316753a5749a250976e231b257",
+      "bytes": 72773
+    },
+    {
+      "path": "outputs/diary_20261015/preview_5803_exit_desktop.png",
+      "sha256": "f4031cc8342e348ff9ca7c0fb4675163cd691244f084fe375c97c27ab33723a0",
+      "bytes": 499705
+    },
+    {
+      "path": "outputs/diary_20261015/chart_285A.png",
+      "sha256": "c738d71555ee9b97894823b4f2ab45065da360ca5f233a217ec960de02a0caf0",
+      "bytes": 77443
+    },
+    {
+      "path": "outputs/diary_20261015/chart_1321.png",
+      "sha256": "aaad3602ec67b32964a6d153d0f38c4739cc25a5654958336ea7d2896995d7d0",
+      "bytes": 67991
+    },
+    {
+      "path": "outputs/diary_20261015/chart_6857.png",
+      "sha256": "e35f0284f65e23e50a459dc71b493f5fcb1a0ce65f1ac92954ba43e462697657",
+      "bytes": 98432
+    },
+    {
+      "path": "outputs/diary_20261015/macro_6.png",
+      "sha256": "6dd84dd7173c9366aa0bbbeaaae3753829205dc486d6d7e688e57371a634f73f",
+      "bytes": 31959
+    },
+    {
+      "path": "outputs/diary_20261015/macro_7.png",
+      "sha256": "85a29abe97b5c0403b573e7b2a1c6a38f4614c2928e0cbf6b95d82589a13dbce",
+      "bytes": 32527
+    },
+    {
+      "path": "outputs/diary_20261015/macro_5.png",
+      "sha256": "03a006dfd3638413745100ae24c33ec5da254c5ea2430a002b51d2578955c496",
+      "bytes": 36832
+    },
+    {
+      "path": "outputs/diary_20261015/macro_4.png",
+      "sha256": "1bedd4d4749b44cad67aa88fc38f76fca1162d24ada4f3d7d42a175ae2135a4c",
+      "bytes": 39747
+    },
+    {
+      "path": "outputs/diary_20261015/session_today_only.png",
+      "sha256": "bdb442fa1e127d2dfac61834a2a99ef139cd547611463e93ecb403096cb3f73b",
+      "bytes": 60529
+    },
+    {
+      "path": "outputs/diary_20261015/session_previous_full.png",
+      "sha256": "438f4f801cda9035314a582e3e8e43d5300052d24ce8285bcfdbf2b55212420d",
+      "bytes": 61403
+    },
+    {
+      "path": "outputs/diary_20261015/macro_0.png",
+      "sha256": "3f619f619df906ae368ea4166f6089b7c2c0994704ba76e2631758fcd13b006b",
+      "bytes": 34630
+    },
+    {
+      "path": "outputs/diary_20261015/macro_1.png",
+      "sha256": "967f201bf06f4b2c1d6c7a1fca718d4cc0b571fa5419d4f18bad140300934375",
+      "bytes": 33827
+    },
+    {
+      "path": "outputs/diary_20261015/chart_5803.png",
+      "sha256": "609f93f3f0fb8cf0b9f3dcb1625cddf2179f49c344e6b2456dc59ed4da783a2f",
+      "bytes": 75450
+    },
+    {
+      "path": "outputs/diary_20261015/session_both_days.png",
+      "sha256": "11c6865b3324a99cf7d4ab4b0ed82314f3c1bb81e79e5dadeaeabc9aafbc1c1e",
+      "bytes": 57103
+    },
+    {
+      "path": "outputs/diary_20261015/macro_3.png",
+      "sha256": "a76598cf965dfb8a51f3564ea3f31a4e240e6698b2d7f4290b8103be08b527bb",
+      "bytes": 53582
+    },
+    {
+      "path": "outputs/diary_20261015/macro_2.png",
+      "sha256": "7867df58e857c80343847af2f2fc3495e6f0cd4f7307d6454d2e311b88fd2f9f",
+      "bytes": 45625
+    },
+    {
+      "path": "outputs/diary_20261015/chart_9984.png",
+      "sha256": "20abc34af2a82869b0e47adf2d04d4be10c9dda61290ecfddf1e5614fc3b3dce",
+      "bytes": 78137
+    },
+    {
+      "path": "outputs/diary_20261015/macro_8.png",
+      "sha256": "5c4d0ad523768ba8d130dbce12b4ff6bdefd4722b11901465ce6182a6ba80a22",
+      "bytes": 57425
+    },
+    {
+      "path": "outputs/diary_20261015/chart_JP225YJPY.png",
+      "sha256": "6bed6507e566b35b44709b0e16046dd3c6e0673826570cb4b812e0245702e8a2",
+      "bytes": 54529
+    },
+    {
+      "path": "outputs/diary_20261015/preview_5803_mobile.png",
+      "sha256": "f9f063fc3a3e155cea56f4902e34b34408cda0aada463c72b5f58f42c43a0ee1",
+      "bytes": 466727
+    },
+    {
+      "path": "outputs/diary_20261015/index_JP225_desktop.png",
+      "sha256": "cc463c16fb0692be192ea5d55e6f4fce8aa1bfa4e61248c5551b12795ce4ed5a",
+      "bytes": 94076
+    },
+    {
+      "path": "outputs/diary_20261015/session_scrolled_previous.png",
+      "sha256": "789b26b6105bbad48f09ab5e49871dad2126f4423140b1e70eb7e77b9b3e8f74",
+      "bytes": 58617
+    },
+    {
+      "path": "outputs/diary_20261015/chart_1570.png",
+      "sha256": "49f013d21db771e050b3f0b0f135efd2e5e1a6ecfb7e2eea70671d28ff726384",
+      "bytes": 105750
+    },
+    {
+      "path": "outputs/diary_20261015/session_connected_initial.png",
+      "sha256": "5081e2a8003d14f75046471feb62a8f2b60a9a5be1cbc8936c7bd0ea93cb43ed",
+      "bytes": 48994
+    },
+    {
+      "path": "outputs/diary_20261015/chart_6976.png",
+      "sha256": "7fc213316a0747c43263d2ba4ad5773eba5a7a12bb0cc76dde2e697d129dc9ad",
+      "bytes": 105534
+    },
+    {
+      "path": "outputs/diary_20261015/preview_5803_desktop.png",
+      "sha256": "e22d1a82da4beb88f17a193be8eb57de77f3806c960e1d02dc300cb72b655055",
+      "bytes": 494140
+    },
+    {
+      "path": "outputs/diary_20261015/session_connected_mobile.png",
+      "sha256": "645f1dbcab4fc1617e4fc9e182e4f90fd2ea52f78e913ad692f7a7525d307cb8",
+      "bytes": 25521
+    },
+    {
+      "path": "outputs/diary_20261015/switch_JP225_m5_mobile.png",
+      "sha256": "ff80ab0fce0421c4e005054d7dc238b8816b4dc9ed1db3d1e613f6c6880b9747",
+      "bytes": 68500
+    },
+    {
+      "path": "outputs/diary_20261015/switch_JP225_m5_desktop.png",
+      "sha256": "05deaa8e4a7be5381c11d6a1131800e81e7da18a0237cd524e5802ed8c0c7c34",
+      "bytes": 83387
+    },
+    {
+      "path": "outputs/diary_20261015/switch_US100_m5_desktop.png",
+      "sha256": "efaa48ea4567e56fa21e7fc59acabd93ff9bc12be5be45648ba32c6e8aa447a3",
+      "bytes": 72203
+    },
+    {
+      "path": "outputs/diary_20261015/macro_9.png",
+      "sha256": "668ba50bc5a58066539c54bfe976cf3817d4d88e2277636c29365372d0133ccc",
+      "bytes": 26207
+    },
+    {
+      "path": "outputs/diary_20261015/index_buttons_review.json",
+      "sha256": "a4eaddfed17194bfcf6d6b1679e45608bace1ca1927c41aff38ef8cf434c4836",
+      "bytes": 4103
+    },
+    {
+      "path": "outputs/diary_20261015/render_diary.py",
+      "sha256": "9ce22c551c8d233224934b7d2e3b2312342c7e27182eb2c5c97f561860134c93",
+      "bytes": 49199
+    },
+    {
+      "path": "outputs/diary_20261015/enrich_indices.py",
+      "sha256": "b34d11d90eadc192933ec226c5bacb0005ea9027d33f41a759c4ebd66a0f04aa",
+      "bytes": 4656
+    },
+    {
+      "path": "diary_creation_rules.md",
+      "sha256": "ab85c1f0a87c9259ca019a8c787b0351ee9526748214f48d5c4d9dad93685e3c",
+      "bytes": 45685
+    },
+    {
+      "path": "[local path omitted]",
+      "sha256": "fcd235e281140de6fa98e2541fdaf448ad77cccee875649f0a117320da8330b7",
+      "bytes": 14137
+    },
+    {
+      "path": "shared/diary_index_charts.js",
+      "sha256": "fd5555cf48bc0d87e47dcb9fc5f87aec29b393f75e4e5d143d1b8fe637fc9b26",
+      "bytes": 17838
+    },
+    {
+      "path": "shared/diary_index_charts.css",
+      "sha256": "493abe91b2695831859e106fbde374cb7e8d12b59a2e5cf4c62da345068401b3",
+      "bytes": 848
+    },
+    {
+      "path": "shared/diary_ohlcv_replay.js",
+      "sha256": "deb5864727f5cbbac1b0a3693570f380a60a80b8150cc87ae32639687f209364",
+      "bytes": 23926
+    },
+    {
+      "path": "scripts/diary_index_replay.py",
+      "sha256": "4200c1e4231b98956c4cb96a241f9af5e094b1b556f1a49ea35e28d3690c9ea1",
+      "bytes": 5203
+    },
+    {
+      "path": "scripts/diary_index_buttons_20261014.py",
+      "sha256": "068236ba8aacde9137f000d61da70b4adeb12b9068aacd4d3c49fc6c5ad61ff4",
+      "bytes": 9063
+    },
+    {
+      "path": "outputs/diary_20261015/index_H1_after.png",
+      "sha256": "6b96d4cfced0bc79f89674ee3a6047aaf7d03b2786b58ea32086d2b9405bc1d3",
+      "bytes": 108194
+    },
+    {
+      "path": "outputs/diary_20261015/index_M5_mobile.png",
+      "sha256": "18946d40919e2a0c8367e7745267d1f5aba773e13bc7ba8f464ecaecbddc48ca",
+      "bytes": 96613
+    },
+    {
+      "path": "outputs/diary_20261015/index_H1_before.png",
+      "sha256": "67c1df2cb60af0be6843c29ceb1ac79dd6d82f2afddebd7342160cfe3b454956",
+      "bytes": 99547
+    },
+    {
+      "path": "outputs/diary_20261015/index_D1_before.png",
+      "sha256": "4688e44ee3f6fcdbf9d08929673d10f3d879825d2bc2d93144db069d17762431",
+      "bytes": 88152
+    },
+    {
+      "path": "outputs/diary_20261015/index_M5_after.png",
+      "sha256": "bf064b7fb2638a7b07031ebd76fc2af20f4bca95b1cfba53d92e36cee57628ba",
+      "bytes": 110463
+    },
+    {
+      "path": "outputs/diary_20261015/index_M5_before.png",
+      "sha256": "bdf60d1f821ba870c5bb898b3e5d7cee187786d7d53f6cfe01e1cd0135aff247",
+      "bytes": 100200
+    },
+    {
+      "path": "outputs/diary_20261015/index_snapshots_mobile.png",
+      "sha256": "a7e1a4b6e94a959fb601fa040d1c16e2c44f36e8ab44fd73180b8295ede2a79c",
+      "bytes": 93995
+    },
+    {
+      "path": "outputs/diary_20261015/index_D1_after.png",
+      "sha256": "fb9acde8903a2c05bf783983e6d9f0b0dc3e507ed05f120089dfdedcba516035",
+      "bytes": 99237
+    },
+    {
+      "path": "outputs/diary_20261015/index_replay_sources.json",
+      "sha256": "da682722e0104e46bd228eac317edae995f201f7049d0d59da1f1eb94b4594b7",
+      "bytes": 2453
+    },
+    {
+      "path": "outputs/diary_20261015/index_snapshot_capture.json",
+      "sha256": "96f99fe2c8ab963e45f0f806e6bbfeba3086103f3dc5f6f18dbe91c5c771bf67",
+      "bytes": 10735
+    },
+    {
+      "path": "outputs/diary_20261015/chart_data.json",
+      "sha256": "b58e4c27cfe633c9eb133e147a3ef7f4bbb64e9393c8b80362e986db6deb605a",
+      "bytes": 11520851
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+      "sha256": "612ac64237c6ba6c79423fea5a9a67277f1494d378ce8a28cbfb3164570ed0fb",
+      "bytes": 7724399
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_H1.csv",
+      "sha256": "acb0ade149b9e700faeea5c4e0169ff8f6277fdc6c0d6e107b68e966876ae29e",
+      "bytes": 654566
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_D1.csv",
+      "sha256": "dc6e9aea99eda7561cbda3528c440e3092af43962f10465e8498545ebbdd8dc2",
+      "bytes": 68282
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_W1.csv",
+      "sha256": "7f990ba3cd27c2da605b95e492c09fd406e0fd315f3ee1d1c12b799a1ed13e14",
+      "bytes": 13888
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+      "sha256": "a03e9a614e2ce4aac612840cd4d5ec110cf9b77dde7363de7b2ca1d628a7b291",
+      "bytes": 7671689
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_H1.csv",
+      "sha256": "31de65da91d8781b6bfa272b0b2d233de1f509f1b491f854a8924ac813fb0466",
+      "bytes": 649842
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_D1.csv",
+      "sha256": "264d599db251f9de1de60dd000e653128379e383d122f04339e68e9908989c3c",
+      "bytes": 68686
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_W1.csv",
+      "sha256": "6a182a3ed5c5645509cce9a1e66329ddb486a79d4020940bcee9b26257fe6e57",
+      "bytes": 13949
+    }
+  ],
+  "index_revision": "bb-comp-downtrend-continuation-and-round-support-sell",
+  "revision": "index-timeframes-before-after-replay",
+  "stock_history_files": 14,
+  "mtf_source_policy_violations": {
+    "JP225": 0,
+    "US100": 0
+  },
+  "index_display": {
+    "panels": 2,
+    "indexCanvases": 2,
+    "duplicateSummaries": 0,
+    "controllers": [
+      "JP225",
+      "US100"
+    ]
+  },
+  "index_image_viewer": {
+    "visible": true
+  },
+  "local_revision_state": "ローカル保存・今回の変更はFTP別工程",
+  "index_replay_sources": "outputs/diary_20261015/index_replay_sources.json",
+  "stock_payload_sha256": "a50c024ce03816a899acf29a034801a25a26136f071cc6207c3a1e7b88cbe9d3",
+  "prior_stock_payload_sha256": "a50c024ce03816a899acf29a034801a25a26136f071cc6207c3a1e7b88cbe9d3",
+  "index_capture": []
+}

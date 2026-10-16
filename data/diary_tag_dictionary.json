@@ -1,0 +1,1110 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ja",
+  "tags": [
+    {
+      "tag": "absorption",
+      "label": "absorption",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "actual",
+      "label": "実約定",
+      "meaning": "日誌に実取引として記録された場面。CSVとの独立照合状態を別に確認する。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "BB COMP",
+      "label": "BB COMP",
+      "meaning": "ボリンジャーバンド幅の収縮を本人がBB COMPとして分類した場面の検索タグ。約600円幅は本人が該当確認した一事例で、共通の数値しきい値ではない。",
+      "aliases": [
+        "BBコンプ",
+        "BBコンプレッション"
+      ],
+      "definition_source_ids": [],
+      "definition_status": "本人が2026-10-15に2026-08-12の日経225・1時間足・約600円幅を該当確認。設定・計算方法・一律しきい値は未確定。"
+    },
+    {
+      "tag": "breakout",
+      "label": "breakout",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "cancelled_order",
+      "label": "cancelled_order",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "chase",
+      "label": "chase",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "chasing",
+      "label": "追いかけ",
+      "meaning": "伸びた後を追ったと記録された事例。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "chasing_signal",
+      "label": "chasing_signal",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "classification_boundary",
+      "label": "classification_boundary",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "confirmation",
+      "label": "confirmation",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "countertrend",
+      "label": "countertrend",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "data_conflict",
+      "label": "data_conflict",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "DEMO",
+      "label": "DEMO",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "demo",
+      "label": "demo",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "direction_flip",
+      "label": "方向転換",
+      "meaning": "LONG/SHORTを繰り返した記録。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "divergence",
+      "label": "divergence",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "double_top",
+      "label": "double_top",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "draft",
+      "label": "draft",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "early_entry",
+      "label": "先回り",
+      "meaning": "反転・支持などの確認より前に入ったとタグ付け。索引整理を含む。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "early_exit",
+      "label": "早期利確",
+      "meaning": "本人が利確の早さを振り返った事例。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "earnings",
+      "label": "earnings",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "entry_reason_unstated",
+      "label": "entry_reason_unstated",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "ETF",
+      "label": "ETF",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "evidence_conflict",
+      "label": "evidence_conflict",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "execution_unconfirmed",
+      "label": "execution_unconfirmed",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "failed_breakout",
+      "label": "failed_breakout",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "failed_reversal",
+      "label": "failed_reversal",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "failed_support",
+      "label": "failed_support",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "Fleming",
+      "label": "Fleming",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "fleming_sell",
+      "label": "フレミングセル",
+      "meaning": "本資料内で研究用に整理された呼称。9/7定義資料は、上段リテスト失敗と下方通過を示す候補として定義し、一般的サインとは扱わない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "forex",
+      "label": "forex",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "gap",
+      "label": "gap",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "gap_down",
+      "label": "gap_down",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "gap_up",
+      "label": "gap_up",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "high_volatility",
+      "label": "high_volatility",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "hypothetical",
+      "label": "hypothetical",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "impulsive_entry",
+      "label": "impulsive_entry",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "index_context",
+      "label": "index_context",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "index_divergence",
+      "label": "指数との逆行・不一致",
+      "meaning": "個別銘柄と指数・ETFの向きが異なる記録。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "index_sync",
+      "label": "指数連動",
+      "meaning": "指数または関連ETFとの方向一致を記録する検索語。1321 ETFと日経225指数は同一データではない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "indicator",
+      "label": "indicator",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "JP225",
+      "label": "JP225",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "late_entry",
+      "label": "late_entry",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "long",
+      "label": "long",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "loss_cut",
+      "label": "loss_cut",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "low_volatility",
+      "label": "low_volatility",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "missed_opportunity",
+      "label": "見逃し",
+      "meaning": "本人申告の機会認識漏れ。未約定であり損益なし。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "missed_signal",
+      "label": "missed_signal",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "missing_stop",
+      "label": "missing_stop",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "mixed",
+      "label": "mixed",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_confirmation",
+      "label": "no_confirmation",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_execution",
+      "label": "no_execution",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_retest",
+      "label": "no_retest",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_reversal_confirmation",
+      "label": "反転確認不足",
+      "meaning": "下げ止まりや反転の確認が揃わないと記録された。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_support_confirmation",
+      "label": "支持確認不足",
+      "meaning": "支持候補に触れたことと支持反応の成立を分ける。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "no_trade",
+      "label": "no_trade",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "not_executed",
+      "label": "not_executed",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "not_filled",
+      "label": "not_filled",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "NY",
+      "label": "NY",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "observation",
+      "label": "observation",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "opening",
+      "label": "opening",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "opening_chase",
+      "label": "opening_chase",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "opening_chase_risk",
+      "label": "opening_chase_risk",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "order_block",
+      "label": "オーダーブロック",
+      "meaning": "原文の呼称を保持。元資料で定義が確認できない場合は意味を拡張しない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "orderbook",
+      "label": "orderbook",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "overshoot",
+      "label": "overshoot",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "oversizing",
+      "label": "oversizing",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "overtrading",
+      "label": "売買過多",
+      "meaning": "回数増加を課題として記録した事例。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "paper_trading",
+      "label": "paper_trading",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "pennant",
+      "label": "pennant",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "pinball_reversal",
+      "label": "pinball_reversal",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "poor_risk_reward",
+      "label": "poor_risk_reward",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "position_sizing",
+      "label": "position_sizing",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "posthoc",
+      "label": "posthoc",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "posthoc_classification",
+      "label": "posthoc_classification",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "posthoc_review",
+      "label": "posthoc_review",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "process_mismatch",
+      "label": "process_mismatch",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "pullback",
+      "label": "pullback",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "range",
+      "label": "range",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "range_center",
+      "label": "range_center",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "range_edge",
+      "label": "range_edge",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "recovery",
+      "label": "recovery",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "reentry",
+      "label": "再エントリー",
+      "meaning": "同一銘柄・同方向等の再エントリー課題。別場面の場合は独立事例。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "resistance",
+      "label": "resistance",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "retest",
+      "label": "retest",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "revenge_trade",
+      "label": "revenge_trade",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "reversal",
+      "label": "reversal",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "reversal_churn",
+      "label": "reversal_churn",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "risk_management",
+      "label": "risk_management",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "risk_reward",
+      "label": "risk_reward",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "round_number",
+      "label": "round_number",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "same_minute",
+      "label": "same_minute",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "scenario_only",
+      "label": "scenario_only",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "sector_sync",
+      "label": "sector_sync",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "self_report",
+      "label": "self_report",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "separate_account",
+      "label": "separate_account",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "session_boundary",
+      "label": "session_boundary",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "session_gap",
+      "label": "session_gap",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "short",
+      "label": "short",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "short_term",
+      "label": "short_term",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "slippage",
+      "label": "slippage",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "source_conflict",
+      "label": "source_conflict",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "source_pairing",
+      "label": "source_pairing",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "split_fills",
+      "label": "split_fills",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "SR_flip",
+      "label": "サポレジ転換",
+      "meaning": "支持と抵抗の役割転換を表す原文語。時間足・価格は個別原文を参照。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "support",
+      "label": "support",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "support_bounce",
+      "label": "支持反発",
+      "meaning": "支持候補からの反応を扱う検索語。正式な戦略定義ではない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "support_break",
+      "label": "support_break",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "support_failure",
+      "label": "support_failure",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "swing",
+      "label": "swing",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "T2L",
+      "label": "T2L",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "TETRA",
+      "label": "TETRA",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "TETRA1",
+      "label": "TETRA1 SELL",
+      "meaning": "9月の日誌群ではT1Sの大分類。P3等の個別P-IDと同一視しない。詳細は分類資料へのリンクを参照。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "time_unknown",
+      "label": "time_unknown",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "trigger_unstated",
+      "label": "trigger_unstated",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "unit_unknown",
+      "label": "unit_unknown",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "unverified",
+      "label": "unverified",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "volume",
+      "label": "volume",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "volume_divergence",
+      "label": "volume_divergence",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "VWAP",
+      "label": "VWAP",
+      "meaning": "原文にVWAPが記載された事例の検索語。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "wait",
+      "label": "wait",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "wait_for_confirmation",
+      "label": "wait_for_confirmation",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "waited",
+      "label": "待機",
+      "meaning": "条件待ちを明記した行動タグ。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "waited_after_loss",
+      "label": "waited_after_loss",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "wick",
+      "label": "wick",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "エントリーできなかった",
+      "label": "エントリーできなかった",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    },
+    {
+      "tag": "ピンバー反転候補",
+      "label": "ピンバー反転候補",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    },
+    {
+      "tag": "ロールリバーサル",
+      "label": "ロールリバーサル",
+      "meaning": "ロールリバーサルを扱う日誌・場面の共通検索分類。「デイロールリバーサル」も同じ分類にまとめる。具体的な成立条件、時間足、売買ルールは個別の出典と定義書を参照。",
+      "aliases": [
+        "でいろーるりばーさる",
+        "デイロールリバーサル"
+      ],
+      "definition_source_ids": [],
+      "definition_status": "本人指定の同一分類。売買ルールと成立条件は未確定。"
+    },
+    {
+      "tag": "仮想値を実績化しない",
+      "label": "仮想値を実績化しない",
+      "meaning": "原文・場面検索用のタグ。固有の正式定義は確認できていない。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "日誌記載または索引上の検索タグ。定義がない場合は未確認のまま。"
+    },
+    {
+      "tag": "夜間監視",
+      "label": "夜間監視",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    },
+    {
+      "tag": "張り付きが必要なエントリーポイント",
+      "label": "張り付きが必要なエントリーポイント",
+      "meaning": "本人が、常時監視していれば発見できたと振り返る未実行のエントリー候補。客観的な成立判定・約定・利益の証明とは分ける。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "本人の定義あり"
+    },
+    {
+      "tag": "指数逆行",
+      "label": "指数逆行",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    },
+    {
+      "tag": "本人振り返り",
+      "label": "本人振り返り",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    },
+    {
+      "tag": "調整後ロング",
+      "label": "調整後ロング",
+      "meaning": "このタグが付与された日誌・場面を参照。一般定義は未確認。",
+      "aliases": [],
+      "definition_source_ids": [],
+      "definition_status": "定義未確認。紐づく記述を参照。"
+    }
+  ],
+  "source_terms": [
+    {
+      "term": "T1S / Tetra1Sell",
+      "meaning": "9月の横断パターン資料で大分類。P3はその下位型の例。",
+      "source_paths": [
+        "[local path omitted]"
+      ],
+      "formal_scope": "当該資料内の分類。利益優位性は未検証。"
+    },
+    {
+      "term": "T2L / Tetra2Long",
+      "meaning": "9/1場面の後日再分類。下降波中の調整LONGとして使われ、反転LONGと分ける。",
+      "source_paths": [
+        "[local path omitted]"
+      ],
+      "formal_scope": "後日再分類。トレード当時の認識を示す証拠ではない。"
+    },
+    {
+      "term": "フレミングセル / 真空ゾーン",
+      "meaning": "9/7太陽誘電をもとにした研究呼称。真空ゾーンはギャップ・約定ゼロと同義ではない。",
+      "source_paths": [
+        "[local path omitted]"
+      ],
+      "formal_scope": "同資料内で研究用と明記。優位性未検証。"
+    }
+  ]
+}

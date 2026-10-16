@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-16",
+  "root": "[local path omitted]",
+  "files": [
+    {
+      "path": "diary_tag_index.html",
+      "sha256_before": "dfcdf8ac4b9afc295681d9e183cee980ea98f6e797234fb9d6fb1c3b8096e55b",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/diary_tag_index.html",
+      "sha256_backup": "dfcdf8ac4b9afc295681d9e183cee980ea98f6e797234fb9d6fb1c3b8096e55b"
+    },
+    {
+      "path": "scripts/diary_tag_catalog.py",
+      "sha256_before": "150d972230d292747a8bbfdb975617113f774ba1c8fc0b72ce323b232e082b5e",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/scripts/diary_tag_catalog.py",
+      "sha256_backup": "150d972230d292747a8bbfdb975617113f774ba1c8fc0b72ce323b232e082b5e"
+    },
+    {
+      "path": "shared/diary_tag_search.js",
+      "sha256_before": "8bdaae61a96d676aaca403bc02e59555e123c2cb171e489f0e2b8ad1355fa193",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/shared/diary_tag_search.js",
+      "sha256_backup": "8bdaae61a96d676aaca403bc02e59555e123c2cb171e489f0e2b8ad1355fa193"
+    },
+    {
+      "path": "shared/diary_tag_search.css",
+      "sha256_before": "34e69b7355df9163fd31cc51c2a90acee8cfa870c45a470914f1b565b11931f7",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/shared/diary_tag_search.css",
+      "sha256_backup": "34e69b7355df9163fd31cc51c2a90acee8cfa870c45a470914f1b565b11931f7"
+    },
+    {
+      "path": "tag_approach_definitions/index.html",
+      "sha256_before": "b5a098c53ea259bb493d174896fe05d700771baf0bd353236b0a68d28ba83f30",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/index.html",
+      "sha256_backup": "b5a098c53ea259bb493d174896fe05d700771baf0bd353236b0a68d28ba83f30"
+    },
+    {
+      "path": "tag_approach_definitions/README.md",
+      "sha256_before": "d007b088a7df866a9914c0b22a96ab5b172e1bb042f64eb25dc23a95adf0dab6",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/README.md",
+      "sha256_backup": "d007b088a7df866a9914c0b22a96ab5b172e1bb042f64eb25dc23a95adf0dab6"
+    },
+    {
+      "path": "tag_approach_definitions/role_reversal.md",
+      "sha256_before": "eaa5eb848584e5222fadded7508cc7ac25a506e6ce0845660decb0b0349c2175",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/role_reversal.md",
+      "sha256_backup": "eaa5eb848584e5222fadded7508cc7ac25a506e6ce0845660decb0b0349c2175"
+    },
+    {
+      "path": "tag_approach_definitions/bb_comp.md",
+      "sha256_before": "a7de3899d21d97c812734552ca351d5c485e089a057c695ad2dc725fdd125a2d",
+      "backup_path": "outputs/tag_taxonomy_implementation/20261016/backup_before/tag_approach_definitions/bb_comp.md",
+      "sha256_backup": "a7de3899d21d97c812734552ca351d5c485e089a057c695ad2dc725fdd125a2d"
+    }
+  ]
+}

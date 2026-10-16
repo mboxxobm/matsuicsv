@@ -1,0 +1,14 @@
+{
+  "manifest_http": 403,
+  "matched_board_files": [],
+  "walk": [
+    {
+      "key": "20261014_picked/qr-285A-20261014.csv",
+      "http": 403
+    },
+    {
+      "key": "20261014_picked/qr-6857-20261014.csv",
+      "http": 403
+    }
+  ]
+}

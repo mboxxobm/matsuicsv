@@ -1,0 +1,179 @@
+{
+  "files": [
+    {
+      "code": "5803",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-5803-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 2264047,
+      "sha256": "2b488a03bbd6cffd5d47609ecaa96c8090bef323f25a26fcef4c14d342906851",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "285A",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-285A-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 3877661,
+      "sha256": "64c64007bf6a46cbc5d9d6b9b4378a4ef206118542943b6e3b3dbb7ef4e4c6f0",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "6857",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-6857-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 2392025,
+      "sha256": "07695c570eca7eb3af57ebb2d09a5dc0117fa305156ffc42eef84948fcdda50c",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "6976",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-6976-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 2522184,
+      "sha256": "e314785fa81cb4dedb76a4f5696a3c9e2a40968de95a0d5b46f03530dd287afa",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "9984",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-9984-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 2554730,
+      "sha256": "8e97de8ae115f6b27b8250b08cf2538a849361777cb8963f2102d33b64171d31",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "1570",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-1570-20261015.csv",
+      "r2_status": {
+        "http": 404,
+        "code": "NoSuchKey"
+      },
+      "source": "HDD GEMINIGravity",
+      "source_path": "[local path omitted]",
+      "local_path": "[local path omitted]",
+      "bytes": 1950540,
+      "sha256": "76bd0b3cd540fabdb93f99d2266ccd4c7754c461bf36d584bc6ec8df9b18a67a",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "1321",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-1321-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 595468,
+      "sha256": "34c920ec48b1031122d87b263e81ea9cac06e189fa71aa48c369946db93954bf",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "7974",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-7974-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 660140,
+      "sha256": "830a45516eaca313248d335525072e2144f877a2096d5f32cb25ab1a8616b38a",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "7203",
+      "date": "2026-10-15",
+      "r2_key": "20261015_picked/qr-7203-20261015.csv",
+      "r2_status": 200,
+      "source": "R2 authenticated GET",
+      "local_path": "[local path omitted]",
+      "bytes": 444529,
+      "sha256": "cd02411fa4c9aa80b149c02320893c0ce4404d33bedefc0196fbb01a8731a287",
+      "matches_hdd_sha256": true
+    },
+    {
+      "code": "5803",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 1790988,
+      "sha256": "11d7190e38afff2929fe3717cb7d2a4a64a7820bd68023732770a38b940afcbe"
+    },
+    {
+      "code": "285A",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 2698704,
+      "sha256": "2c1f30275cccbb07a7c3fc03fb45d0cd3e150c6d726a9d043e7c6251e54f1b5b"
+    },
+    {
+      "code": "6857",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 1557383,
+      "sha256": "fcaa12250aef34f771f31e93713085528be1bc8f9112a292bf45f6039d1ce2fb"
+    },
+    {
+      "code": "6976",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 1763256,
+      "sha256": "21988acf4edd80a9272eafb68764182d0bd6ab19c5a927e52d515d16e93504ab"
+    },
+    {
+      "code": "9984",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 2017738,
+      "sha256": "6f1bf6d6694b26c4b8bcec3561b7faf6703c1c8d65ffa9522e141c6d108cc6bb"
+    },
+    {
+      "code": "1570",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 871379,
+      "sha256": "f228b4edb61e166baf0235377467f60e54055cc334f294c734446f52b0b37597"
+    },
+    {
+      "code": "1321",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 310228,
+      "sha256": "66a87e665f0e5bddb020d133128339ed6c0dc081ec2772a2f92e45fba60b1d79"
+    },
+    {
+      "code": "7974",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 411179,
+      "sha256": "a746eac36c003300e5a116abeec623a4d2029b005fc4aca191c48e0161de231c"
+    },
+    {
+      "code": "7203",
+      "date": "2026-10-14",
+      "source": "HDD GEMINIGravity",
+      "local_path": "[local path omitted]",
+      "bytes": 297370,
+      "sha256": "0eee871934383987af326a96f944c4f9a72b58f670ec42d219805ab4a5a7e32b"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "root": "[local path omitted]",
+  "files": [
+    {
+      "name": "5803_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4956690,
+      "sha256": "eb9862d88492ab14a67052f1f6a04f40e85db1cf8dfa1c71515d1a392bc6a377",
+      "market_records": 62556,
+      "first": "2026-10-15T09:09:00.065",
+      "last": "2026-10-15T11:35:06.682"
+    },
+    {
+      "name": "5803_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4407227,
+      "sha256": "c9137a8a72f3fd35c5158b13387ac86919f1c87b9b626e0215a84f7486ce01e4",
+      "market_records": 50155,
+      "first": "2026-10-15T12:25:06.036",
+      "last": "2026-10-15T15:31:00.481"
+    },
+    {
+      "name": "285A_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 5978562,
+      "sha256": "4af06b683110262ecb63d18bacbdf0accc543c3e5699de0f83d4c42565bcc106",
+      "market_records": 77985,
+      "first": "2026-10-15T09:06:40.877",
+      "last": "2026-10-15T11:35:05.943"
+    },
+    {
+      "name": "285A_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 5494203,
+      "sha256": "07de125ccb7b8a31a1c991c6b88faf4deab14d664675241605635fcb65f49c98",
+      "market_records": 60318,
+      "first": "2026-10-15T12:25:06.019",
+      "last": "2026-10-15T15:30:59.742"
+    },
+    {
+      "name": "6857_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4826191,
+      "sha256": "da758814e179f233757cef427a468cb34967ce942a5703c86f821f22854b3579",
+      "market_records": 61483,
+      "first": "2026-10-15T09:06:00.089",
+      "last": "2026-10-15T11:35:06.189"
+    },
+    {
+      "name": "6857_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4611373,
+      "sha256": "ebb5f9cf997c5901a84f6c98a64b97ef01a1da9bb00c71089a0527e019d6e252",
+      "market_records": 52267,
+      "first": "2026-10-15T12:25:06.201",
+      "last": "2026-10-15T15:30:59.989"
+    },
+    {
+      "name": "6976_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4604106,
+      "sha256": "e29b74c751ea58668acb691589f83d4fe0da35c9a536307c8756bdc410a2fe08",
+      "market_records": 58753,
+      "first": "2026-10-15T09:03:00.073",
+      "last": "2026-10-15T11:35:06.436"
+    },
+    {
+      "name": "6976_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4837622,
+      "sha256": "cb3631b16c823953ba276ed6b73e1221678ae370389d7c8645f6015b74d808ab",
+      "market_records": 51443,
+      "first": "2026-10-15T12:25:06.030",
+      "last": "2026-10-15T15:31:00.235"
+    },
+    {
+      "name": "9984_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 5175571,
+      "sha256": "de983b1fbb8c996d498ad4075359d94934ca4b3e28ff9feea9821b6b22584e15",
+      "market_records": 64175,
+      "first": "2026-10-15T09:09:38.918",
+      "last": "2026-10-15T11:35:06.313"
+    },
+    {
+      "name": "9984_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 4360440,
+      "sha256": "4acdfcbb9cd39bec0ed4af1dfe4d33299d0eaa40bef75dc23591d7661eb92675",
+      "market_records": 50342,
+      "first": "2026-10-15T12:25:06.207",
+      "last": "2026-10-15T15:31:00.112"
+    },
+    {
+      "name": "1570_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 6069092,
+      "sha256": "e708be2da10aef2e2915281acb5f95a70088e6bd628db2b4abc095c02a816062",
+      "market_records": 65002,
+      "first": "2026-10-15T09:06:00.094",
+      "last": "2026-10-15T11:35:07.195"
+    },
+    {
+      "name": "1570_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 5505739,
+      "sha256": "697273958f56e8cd9c37741c3a9310baa595c99610636911f551c2c07c6a659d",
+      "market_records": 51844,
+      "first": "2026-10-15T12:25:06.344",
+      "last": "2026-10-15T15:31:00.979"
+    },
+    {
+      "name": "1321_20261015_084205.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 3100255,
+      "sha256": "99e9c96541ea0b57fba33fe211ce4ace6338a15cd96d187f7c601c31ce12cb8b",
+      "market_records": 34742,
+      "first": "2026-10-15T09:03:00.147",
+      "last": "2026-10-15T11:35:05.818"
+    },
+    {
+      "name": "1321_20261015_122505.jsonl.gz",
+      "local_path": "[local path omitted]",
+      "bytes": 3175720,
+      "sha256": "66a588bef0c12509829b381cf3b795a9cefa126562649f0f2efe4f1cc8c9b0e6",
+      "market_records": 35961,
+      "first": "2026-10-15T12:25:05.895",
+      "last": "2026-10-15T15:30:59.619"
+    }
+  ]
+}

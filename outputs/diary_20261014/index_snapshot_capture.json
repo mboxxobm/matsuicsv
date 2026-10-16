@@ -1,0 +1,314 @@
+{
+  "errors": [],
+  "captures": [
+    {
+      "symbol": "JP225",
+      "frame": "H1",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 67,945.19 / 20SMA 67,767.565 / Axiory",
+      "note": "20SMA（黄）・%R(15)・BB幅。 ",
+      "state": {
+        "symbol": "JP225",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 90,
+        "last": "2026-10-14 08:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 900.2359412953917,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1791763200,
+        "end": 1791936000
+      }
+    },
+    {
+      "symbol": "JP225",
+      "frame": "H1",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "形成中足の取得範囲末尾 2026-10-14 15:30:00 JST / 終値 68,282.91 / 20SMA 67,937.131 / Axiory",
+      "note": "20SMA（黄）・%R(15)・BB幅。  H1は、その時点までに完成した5分足からの暫定集計。",
+      "state": {
+        "symbol": "JP225",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 90,
+        "last": "2026-10-14 14:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 620.420625563014,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": true,
+        "start": 1791763200,
+        "end": 1791959400
+      }
+    },
+    {
+      "symbol": "JP225",
+      "frame": "M5",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 67,945.19 / 60EMA（緑） 67,973.352 / H1 20SMA（黄） 67,743.065 / Axiory",
+      "note": "60EMA（緑）＋確定H1 20SMA（黄）。 ",
+      "state": {
+        "symbol": "JP225",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 534,
+        "last": "2026-10-14 08:55",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 67743.065,
+          "sourceEnd": 1791932400
+        },
+        "showBB": false,
+        "bbWidth": 197.54493159785193,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1791892800,
+        "end": 1791936000
+      }
+    },
+    {
+      "symbol": "JP225",
+      "frame": "M5",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "表示足の末尾 2026-10-14 15:30:00 JST / 終値 68,282.91 / 60EMA（緑） 68,091.787 / H1 20SMA（黄） 67,916.62 / Axiory",
+      "note": "60EMA（緑）＋確定H1 20SMA（黄）。  10-14 09:00〜10:00は元CSVに足がない区間。灰色表示・補間なし。休止か取得漏れかは未確認。",
+      "state": {
+        "symbol": "JP225",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 600,
+        "last": "2026-10-14 15:25",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 67916.62000000001,
+          "sourceEnd": 1791957600
+        },
+        "showBB": false,
+        "bbWidth": 202.14536848515723,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": false,
+        "start": 1791892800,
+        "end": 1791959400
+      }
+    },
+    {
+      "symbol": "JP225",
+      "frame": "D1",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 67,945.19 / 20SMA 67,337.514 / Axiory",
+      "note": "20SMA（赤）。  この時点で確定済みの日足履歴です。",
+      "state": {
+        "symbol": "JP225",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 140,
+        "last": "2026-10-13 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 7140.737146724005,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1775001600,
+        "end": 1791849600
+      }
+    },
+    {
+      "symbol": "JP225",
+      "frame": "D1",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "形成中足の取得範囲末尾 2026-10-14 15:30:00 JST / 終値 68,282.91 / 20SMA 67,531.4 / Axiory",
+      "note": "20SMA（赤）。  日足は、その時点までに完成した5分足からの暫定集計。区間開始から10:00までは欠測のため、始値・高安は取得範囲のみ。",
+      "state": {
+        "symbol": "JP225",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 140,
+        "last": "2026-10-13 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 6650.170013651988,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": true,
+        "start": 1775088000,
+        "end": 1791936000
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "H1",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 30,574.61 / 20SMA 30,504.947 / Axiory",
+      "note": "20SMA（黄）・%R(15)・BB幅。 ",
+      "state": {
+        "symbol": "US100",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 90,
+        "last": "2026-10-14 08:00",
+        "rays": [],
+        "missingOpening": true,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 183.17676807936158,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1791763200,
+        "end": 1791936000
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "H1",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "形成中足の取得範囲末尾 2026-10-14 15:30:00 JST / 終値 30,672.89 / 20SMA 30,554.049 / Axiory",
+      "note": "20SMA（黄）・%R(15)・BB幅。  H1は、その時点までに完成した5分足からの暫定集計。",
+      "state": {
+        "symbol": "US100",
+        "frame": "H1",
+        "maColor": "#f4c95d",
+        "rows": 90,
+        "last": "2026-10-14 14:00",
+        "rays": [],
+        "missingOpening": true,
+        "mtf": null,
+        "showBB": true,
+        "bbWidth": 248.8219465883181,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": true,
+        "start": 1791763200,
+        "end": 1791959400
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "M5",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 30,574.61 / 60EMA（緑） 30,548.974 / H1 20SMA（黄） 30,501.858 / Axiory",
+      "note": "60EMA（緑）＋確定H1 20SMA（黄）。 ",
+      "state": {
+        "symbol": "US100",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 534,
+        "last": "2026-10-14 08:55",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 30501.858,
+          "sourceEnd": 1791932400
+        },
+        "showBB": false,
+        "bbWidth": 40.416100702566865,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1791892800,
+        "end": 1791936000
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "M5",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "表示足の末尾 2026-10-14 15:30:00 JST / 終値 30,672.89 / 60EMA（緑） 30,622.929 / H1 20SMA（黄） 30,544.123 / Axiory",
+      "note": "60EMA（緑）＋確定H1 20SMA（黄）。  10-14 09:00〜10:00は元CSVに足がない区間。灰色表示・補間なし。休止か取得漏れかは未確認。",
+      "state": {
+        "symbol": "US100",
+        "frame": "M5",
+        "maColor": "#63dc8f",
+        "rows": 600,
+        "last": "2026-10-14 15:25",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": {
+          "color": "#f4c95d",
+          "lastValue": 30544.123499999998,
+          "sourceEnd": 1791957600
+        },
+        "showBB": false,
+        "bbWidth": 48.7872293125975,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": false,
+        "start": 1791892800,
+        "end": 1791959400
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "D1",
+      "clock": "表示時点 2026-10-14 09:00:00 JST",
+      "meta": "表示足の末尾 2026-10-14 09:00:00 JST / 終値 30,574.61 / 20SMA 30,495.23 / Axiory",
+      "note": "20SMA（赤）。  この時点で確定済みの日足履歴です。",
+      "state": {
+        "symbol": "US100",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 140,
+        "last": "2026-10-13 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 2212.256214311534,
+        "cursor": 1791936000,
+        "lastEnd": 1791936000,
+        "forming": false,
+        "start": 1775001600,
+        "end": 1791849600
+      }
+    },
+    {
+      "symbol": "US100",
+      "frame": "D1",
+      "clock": "表示時点 2026-10-14 15:30:00 JST",
+      "meta": "形成中足の取得範囲末尾 2026-10-14 15:30:00 JST / 終値 30,672.89 / 20SMA 30,580.445 / Axiory",
+      "note": "20SMA（赤）。  日足は、その時点までに完成した5分足からの暫定集計。区間開始から10:00までは欠測のため、始値・高安は取得範囲のみ。",
+      "state": {
+        "symbol": "US100",
+        "frame": "D1",
+        "maColor": "#ff5b67",
+        "rows": 140,
+        "last": "2026-10-13 09:00",
+        "rays": [],
+        "missingOpening": false,
+        "mtf": null,
+        "showBB": false,
+        "bbWidth": 1714.253340832678,
+        "cursor": 1791959400,
+        "lastEnd": 1791959400,
+        "forming": true,
+        "start": 1775088000,
+        "end": 1791936000
+      }
+    }
+  ],
+  "playback": "表示時点 2026-10-14 09:20:00 JST",
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  }
+}

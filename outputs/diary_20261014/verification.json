@@ -1,0 +1,1001 @@
+{
+  "checkedAt": "2026-10-14T10:53:40.246Z",
+  "checks": [
+    {
+      "name": "All five interactive charts",
+      "pass": true
+    },
+    {
+      "name": "Seven source photos",
+      "pass": true
+    },
+    {
+      "name": "Macro 5 charts",
+      "pass": true
+    },
+    {
+      "name": "6857 before starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791936300
+      }
+    },
+    {
+      "name": "6857 before no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791936270,
+        "end": 1791936300,
+        "v": 44500,
+        "spike": false,
+        "rvol": 0.6779402803168799,
+        "complete": true
+      }
+    },
+    {
+      "name": "6857 before no future fills",
+      "pass": true
+    },
+    {
+      "name": "6857 before delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "6857 just starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791938099
+      }
+    },
+    {
+      "name": "6857 just no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791938070,
+        "end": 1791938085,
+        "v": 4300,
+        "spike": false,
+        "rvol": 0.18887262079062955,
+        "complete": false
+      }
+    },
+    {
+      "name": "6857 just no future fills",
+      "pass": true
+    },
+    {
+      "name": "6857 just delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "6857 entry-before hides fills",
+      "pass": true
+    },
+    {
+      "name": "6857 after starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791938130
+      }
+    },
+    {
+      "name": "6857 after no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791938100,
+        "end": 1791938130,
+        "v": 22600,
+        "spike": false,
+        "rvol": 0.9382784389703847,
+        "complete": true
+      }
+    },
+    {
+      "name": "6857 after no future fills",
+      "pass": true
+    },
+    {
+      "name": "6857 after delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "6857 latest starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791959400
+      }
+    },
+    {
+      "name": "6857 latest no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791959400,
+        "end": 1791959400,
+        "v": 756300,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "6857 latest no future fills",
+      "pass": true
+    },
+    {
+      "name": "6857 latest delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "6857 15:30 availability",
+      "pass": true
+    },
+    {
+      "name": "6857 actual volume available",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 15",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 15",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 30",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 30",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 60",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 60",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 120",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 120",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 300",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 300",
+      "pass": true
+    },
+    {
+      "name": "6857 native resolution 600",
+      "pass": true
+    },
+    {
+      "name": "6857 volume sum 600",
+      "pass": true
+    },
+    {
+      "name": "285A before starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791937020
+      }
+    },
+    {
+      "name": "285A before no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791936990,
+        "end": 1791937020,
+        "v": 86800,
+        "spike": false,
+        "rvol": 0.6617071054914435,
+        "complete": true
+      }
+    },
+    {
+      "name": "285A before no future fills",
+      "pass": true
+    },
+    {
+      "name": "285A before delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "285A just starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791938819
+      }
+    },
+    {
+      "name": "285A just no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791938790,
+        "end": 1791938805,
+        "v": 51500,
+        "spike": false,
+        "rvol": 1.2079749804534792,
+        "complete": false
+      }
+    },
+    {
+      "name": "285A just no future fills",
+      "pass": true
+    },
+    {
+      "name": "285A just delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "285A entry-before hides fills",
+      "pass": true
+    },
+    {
+      "name": "285A after starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791938850
+      }
+    },
+    {
+      "name": "285A after no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791938820,
+        "end": 1791938850,
+        "v": 48600,
+        "spike": false,
+        "rvol": 1.0372056626591735,
+        "complete": true
+      }
+    },
+    {
+      "name": "285A after no future fills",
+      "pass": true
+    },
+    {
+      "name": "285A after delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "285A latest starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791959400
+      }
+    },
+    {
+      "name": "285A latest no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791959400,
+        "end": 1791959400,
+        "v": 1449200,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "285A latest no future fills",
+      "pass": true
+    },
+    {
+      "name": "285A latest delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "285A 15:30 availability",
+      "pass": true
+    },
+    {
+      "name": "285A actual volume available",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 15",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 15",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 30",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 30",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 60",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 60",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 120",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 120",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 300",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 300",
+      "pass": true
+    },
+    {
+      "name": "285A native resolution 600",
+      "pass": true
+    },
+    {
+      "name": "285A volume sum 600",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY before starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791942678
+      }
+    },
+    {
+      "name": "JP225YJPY before no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791940800,
+        "end": 1791942000,
+        "v": null,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "JP225YJPY before no future fills",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY before delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY just starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791944477
+      }
+    },
+    {
+      "name": "JP225YJPY just no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791943200,
+        "end": 1791944400,
+        "v": null,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "JP225YJPY just no future fills",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY just delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY entry-before hides fills",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY after starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791946878
+      }
+    },
+    {
+      "name": "JP225YJPY after no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791945600,
+        "end": 1791946800,
+        "v": null,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "JP225YJPY after no future fills",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY after delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY latest starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791936000,
+        "end": 1791953580
+      }
+    },
+    {
+      "name": "JP225YJPY latest no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791950400,
+        "end": 1791951600,
+        "v": null,
+        "spike": false,
+        "rvol": null,
+        "complete": true
+      }
+    },
+    {
+      "name": "JP225YJPY latest no future fills",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY latest delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY 15:30 availability",
+      "pass": true
+    },
+    {
+      "name": "OANDA unknown volume",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY native resolution 1200",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY volume sum 1200",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY native resolution 3600",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY volume sum 3600",
+      "pass": true
+    },
+    {
+      "name": "SNDK before starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791910560
+      }
+    },
+    {
+      "name": "SNDK before no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791910440,
+        "end": 1791910560,
+        "v": 2321,
+        "spike": false,
+        "rvol": 0.8695380696080024,
+        "complete": true
+      }
+    },
+    {
+      "name": "SNDK before no future fills",
+      "pass": true
+    },
+    {
+      "name": "SNDK before delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "SNDK just starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791912359
+      }
+    },
+    {
+      "name": "SNDK just no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791912240,
+        "end": 1791912300,
+        "v": 730,
+        "spike": false,
+        "rvol": 0.3815198076722065,
+        "complete": false
+      }
+    },
+    {
+      "name": "SNDK just no future fills",
+      "pass": true
+    },
+    {
+      "name": "SNDK just delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "SNDK entry-before hides fills",
+      "pass": true
+    },
+    {
+      "name": "SNDK after starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791912480
+      }
+    },
+    {
+      "name": "SNDK after no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791912360,
+        "end": 1791912480,
+        "v": 2291,
+        "spike": false,
+        "rvol": 1.2137533994984637,
+        "complete": true
+      }
+    },
+    {
+      "name": "SNDK after no future fills",
+      "pass": true
+    },
+    {
+      "name": "SNDK after delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "SNDK latest starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791921540
+      }
+    },
+    {
+      "name": "SNDK latest no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791921480,
+        "end": 1791921540,
+        "v": 5103,
+        "spike": false,
+        "rvol": 1.6454036392558118,
+        "complete": false
+      }
+    },
+    {
+      "name": "SNDK latest no future fills",
+      "pass": true
+    },
+    {
+      "name": "SNDK latest delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "SNDK 15:30 availability",
+      "pass": true
+    },
+    {
+      "name": "SNDK actual volume available",
+      "pass": true
+    },
+    {
+      "name": "SNDK native resolution 60",
+      "pass": true
+    },
+    {
+      "name": "SNDK volume sum 60",
+      "pass": true
+    },
+    {
+      "name": "SNDK native resolution 120",
+      "pass": true
+    },
+    {
+      "name": "SNDK volume sum 120",
+      "pass": true
+    },
+    {
+      "name": "SNDK native resolution 300",
+      "pass": true
+    },
+    {
+      "name": "SNDK volume sum 300",
+      "pass": true
+    },
+    {
+      "name": "TSLA before starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791915720
+      }
+    },
+    {
+      "name": "TSLA before no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791915660,
+        "end": 1791915720,
+        "v": 3132,
+        "spike": false,
+        "rvol": 0.9728520842392993,
+        "complete": true
+      }
+    },
+    {
+      "name": "TSLA before no future fills",
+      "pass": true
+    },
+    {
+      "name": "TSLA before delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "TSLA just starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791917519
+      }
+    },
+    {
+      "name": "TSLA just no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791917400,
+        "end": 1791917460,
+        "v": 5861,
+        "spike": true,
+        "rvol": 3.0422520589660182,
+        "complete": true
+      }
+    },
+    {
+      "name": "TSLA just no future fills",
+      "pass": true
+    },
+    {
+      "name": "TSLA just delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "TSLA entry-before hides fills",
+      "pass": true
+    },
+    {
+      "name": "TSLA after starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791917640
+      }
+    },
+    {
+      "name": "TSLA after no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791917580,
+        "end": 1791917640,
+        "v": 4601,
+        "spike": false,
+        "rvol": 1.1986973512809378,
+        "complete": true
+      }
+    },
+    {
+      "name": "TSLA after no future fills",
+      "pass": true
+    },
+    {
+      "name": "TSLA after delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "TSLA latest starts at opening",
+      "pass": true,
+      "details": {
+        "start": 1791898200,
+        "end": 1791921540
+      }
+    },
+    {
+      "name": "TSLA latest no future completed bars",
+      "pass": true,
+      "details": {
+        "t": 1791921480,
+        "end": 1791921540,
+        "v": 13617,
+        "spike": true,
+        "rvol": 2.558640602784685,
+        "complete": true
+      }
+    },
+    {
+      "name": "TSLA latest no future fills",
+      "pass": true
+    },
+    {
+      "name": "TSLA latest delta remains missing",
+      "pass": true
+    },
+    {
+      "name": "TSLA 15:30 availability",
+      "pass": true
+    },
+    {
+      "name": "TSLA actual volume available",
+      "pass": true
+    },
+    {
+      "name": "TSLA native resolution 60",
+      "pass": true
+    },
+    {
+      "name": "TSLA volume sum 60",
+      "pass": true
+    },
+    {
+      "name": "TSLA native resolution 120",
+      "pass": true
+    },
+    {
+      "name": "TSLA volume sum 120",
+      "pass": true
+    },
+    {
+      "name": "TSLA native resolution 300",
+      "pass": true
+    },
+    {
+      "name": "TSLA volume sum 300",
+      "pass": true
+    },
+    {
+      "name": "Pre-fill locks entry label",
+      "pass": true
+    },
+    {
+      "name": "First entry only",
+      "pass": true
+    },
+    {
+      "name": "Both entries",
+      "pass": true
+    },
+    {
+      "name": "Unrealized not shown before snapshot",
+      "pass": true
+    },
+    {
+      "name": "Unrealized snapshot available",
+      "pass": true
+    },
+    {
+      "name": "TP voice report not exposed early",
+      "pass": true
+    },
+    {
+      "name": "TP only after reported time",
+      "pass": true
+    },
+    {
+      "name": "257600 shares 30-second interval",
+      "pass": true,
+      "details": {
+        "t": 1791938430,
+        "end": 1791938460,
+        "v": 257600,
+        "spike": true,
+        "rvol": 6.223224351747463,
+        "complete": true
+      }
+    },
+    {
+      "name": "Spike marked",
+      "pass": true,
+      "details": {
+        "t": 1791938430,
+        "end": 1791938460,
+        "v": 257600,
+        "spike": true,
+        "rvol": 6.223224351747463,
+        "complete": true
+      }
+    },
+    {
+      "name": "188700 shares 30-second interval",
+      "pass": true
+    },
+    {
+      "name": "SNDK exact 2-minute quantity",
+      "pass": true
+    },
+    {
+      "name": "Data native tail excluded",
+      "pass": true
+    },
+    {
+      "name": "Previous day pan",
+      "pass": true
+    },
+    {
+      "name": "Shared viewer opens",
+      "pass": true
+    },
+    {
+      "name": "Shared viewer closes",
+      "pass": true
+    },
+    {
+      "name": "Both daily SMA are red",
+      "pass": true
+    },
+    {
+      "name": "OANDA opening ray exact JST9",
+      "pass": true
+    },
+    {
+      "name": "US100 missing9 explicitly recorded",
+      "pass": true
+    },
+    {
+      "name": "6857 exact positive 30s volume",
+      "pass": true
+    },
+    {
+      "name": "Unfilled plan shown after placing",
+      "pass": true
+    },
+    {
+      "name": "Cancelled plan hidden",
+      "pass": true
+    },
+    {
+      "name": "6857 actual closing auction included",
+      "pass": true
+    },
+    {
+      "name": "285A actual closing auction included",
+      "pass": true
+    },
+    {
+      "name": "285A HDD board fields attached",
+      "pass": true
+    },
+    {
+      "name": "285A board/tape full-day volume match",
+      "pass": true
+    },
+    {
+      "name": "285A no board before collection",
+      "pass": true
+    },
+    {
+      "name": "285A first observed quote available",
+      "pass": true
+    },
+    {
+      "name": "285A before board future lock",
+      "pass": true
+    },
+    {
+      "name": "285A just board future lock",
+      "pass": true
+    },
+    {
+      "name": "285A after board future lock",
+      "pass": true
+    },
+    {
+      "name": "285A latest board future lock",
+      "pass": true
+    },
+    {
+      "name": "6857 HDD board fields attached",
+      "pass": true
+    },
+    {
+      "name": "6857 board/tape full-day volume match",
+      "pass": true
+    },
+    {
+      "name": "6857 no board before collection",
+      "pass": true
+    },
+    {
+      "name": "6857 first observed quote available",
+      "pass": true
+    },
+    {
+      "name": "6857 before board future lock",
+      "pass": true
+    },
+    {
+      "name": "6857 just board future lock",
+      "pass": true
+    },
+    {
+      "name": "6857 after board future lock",
+      "pass": true
+    },
+    {
+      "name": "6857 latest board future lock",
+      "pass": true
+    },
+    {
+      "name": "Mobile no horizontal document overflow",
+      "pass": true
+    },
+    {
+      "name": "6857 mobile right labels fit",
+      "pass": true
+    },
+    {
+      "name": "285A mobile right labels fit",
+      "pass": true
+    },
+    {
+      "name": "JP225YJPY mobile right labels fit",
+      "pass": true
+    },
+    {
+      "name": "SNDK mobile right labels fit",
+      "pass": true
+    },
+    {
+      "name": "TSLA mobile right labels fit",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "htmlSha256": "d77ae93d3a279693442fb2efa2f7db95a8a49352619828edae464b38eadb93fc",
+  "jsSha256": "61cb8f7183b3db13c0ddaf60e090e9b13b209c793fb461ed0c699e5348cd66d1"
+}

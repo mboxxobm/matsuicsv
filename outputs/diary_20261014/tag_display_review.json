@@ -1,0 +1,72 @@
+{
+  "observations": [
+    {
+      "action": "一覧を開く",
+      "result": "3件 / 全3件"
+    },
+    {
+      "action": "検索 張り付き",
+      "result": "3件 / 全3件",
+      "names": [
+        "TSLA テスラ",
+        "6857 アドバンテスト",
+        "285A キオクシア"
+      ]
+    },
+    {
+      "action": "検索 きおくしあ",
+      "result": "1件 / 全3件",
+      "names": [
+        "285A キオクシア"
+      ]
+    },
+    {
+      "action": "検索 あどばんてすと",
+      "result": "1件 / 全3件",
+      "names": [
+        "6857 アドバンテスト"
+      ]
+    },
+    {
+      "action": "検索 テスラ",
+      "result": "1件 / 全3件",
+      "names": [
+        "TSLA テスラ"
+      ]
+    },
+    {
+      "action": "検索 2026/10/14 TSLA",
+      "result": "1件 / 全3件",
+      "names": [
+        "TSLA テスラ"
+      ]
+    },
+    {
+      "action": "検索 該当しない検索語",
+      "result": "0件 / 全3件",
+      "names": []
+    },
+    {
+      "action": "デイロールリバーサルのタグを選択",
+      "result": "1件 / 全3件 · #デイロールリバーサル"
+    },
+    {
+      "action": "スマートフォン表示",
+      "horizontalOverflow": false
+    },
+    {
+      "action": "日誌にタグを表示",
+      "symbolNotes": 3,
+      "tagCount": "3件 / 全3件",
+      "charts": 5
+    },
+    {
+      "action": "タグ付きリンクを開く",
+      "result": "1件 / 全3件 · #夜間監視",
+      "names": [
+        "TSLA テスラ"
+      ]
+    }
+  ],
+  "errors": []
+}

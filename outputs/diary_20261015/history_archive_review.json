@@ -1,0 +1,114 @@
+[
+  {
+    "symbol": "1321",
+    "date": "2026-10-14",
+    "bars": 1291,
+    "shares": 16036730,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "1321",
+    "date": "2026-10-15",
+    "bars": 1290,
+    "shares": 51144120,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "1570",
+    "date": "2026-10-14",
+    "bars": 1302,
+    "shares": 2368236,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "1570",
+    "date": "2026-10-15",
+    "bars": 1278,
+    "shares": 5373128,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "285A",
+    "date": "2026-10-14",
+    "bars": 1302,
+    "shares": 53857300,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "285A",
+    "date": "2026-10-15",
+    "bars": 1276,
+    "shares": 79013300,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "5803",
+    "date": "2026-10-14",
+    "bars": 1302,
+    "shares": 29302000,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "5803",
+    "date": "2026-10-15",
+    "bars": 1266,
+    "shares": 48846000,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "6857",
+    "date": "2026-10-14",
+    "bars": 1299,
+    "shares": 16637800,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "6857",
+    "date": "2026-10-15",
+    "bars": 1278,
+    "shares": 26184300,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "6976",
+    "date": "2026-10-14",
+    "bars": 1302,
+    "shares": 26376100,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "6976",
+    "date": "2026-10-15",
+    "bars": 1289,
+    "shares": 29621300,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "9984",
+    "date": "2026-10-14",
+    "bars": 1302,
+    "shares": 43075000,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  },
+  {
+    "symbol": "9984",
+    "date": "2026-10-15",
+    "bars": 1264,
+    "shares": 75165400,
+    "hash_matches_manifest": true,
+    "volume_matches_manifest": true
+  }
+]

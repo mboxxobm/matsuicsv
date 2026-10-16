@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-15",
+  "cutoff": 1792076399.0,
+  "source_commit": "84d90293f5e5f8bec33e6707bfa5d2d654be7113",
+  "method": "後日取得の保存履歴から各表示時刻までを復元。形成中H1・日足は完成した同一配信元M5だけで暫定集計。欠測区間は補間しない。",
+  "symbols": {
+    "JP225": {
+      "sources": [
+        {
+          "frame": "M5",
+          "path": "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+          "sha256": "612ac64237c6ba6c79423fea5a9a67277f1494d378ce8a28cbfb3164570ed0fb",
+          "last_end": 1792059600.0
+        },
+        {
+          "frame": "H1",
+          "path": "data/2026-10-15/github/market_data/axiory/JP225_H1.csv",
+          "sha256": "acb0ade149b9e700faeea5c4e0169ff8f6277fdc6c0d6e107b68e966876ae29e",
+          "last_end": 1792058400.0
+        },
+        {
+          "frame": "D1",
+          "path": "data/2026-10-15/github/market_data/axiory/JP225_D1.csv",
+          "sha256": "dc6e9aea99eda7561cbda3528c440e3092af43962f10465e8498545ebbdd8dc2",
+          "last_end": 1792022400.0
+        },
+        {
+          "frame": "W1",
+          "path": "data/2026-10-15/github/market_data/axiory/JP225_W1.csv",
+          "sha256": "7f990ba3cd27c2da605b95e492c09fd406e0fd315f3ee1d1c12b799a1ed13e14",
+          "last_end": 1791676800.0
+        }
+      ],
+      "availableEnd": 1792059600.0
+    },
+    "US100": {
+      "sources": [
+        {
+          "frame": "M5",
+          "path": "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+          "sha256": "a03e9a614e2ce4aac612840cd4d5ec110cf9b77dde7363de7b2ca1d628a7b291",
+          "last_end": 1792021200.0
+        },
+        {
+          "frame": "H1",
+          "path": "data/2026-10-15/github/market_data/axiory/US100_H1.csv",
+          "sha256": "31de65da91d8781b6bfa272b0b2d233de1f509f1b491f854a8924ac813fb0466",
+          "last_end": 1792018800.0
+        },
+        {
+          "frame": "D1",
+          "path": "data/2026-10-15/github/market_data/axiory/US100_D1.csv",
+          "sha256": "264d599db251f9de1de60dd000e653128379e383d122f04339e68e9908989c3c",
+          "last_end": 1791936000.0
+        },
+        {
+          "frame": "W1",
+          "path": "data/2026-10-15/github/market_data/axiory/US100_W1.csv",
+          "sha256": "6a182a3ed5c5645509cce9a1e66329ddb486a79d4020940bcee9b26257fe6e57",
+          "last_end": 1791676800.0
+        }
+      ],
+      "availableEnd": 1792021200.0
+    }
+  }
+}

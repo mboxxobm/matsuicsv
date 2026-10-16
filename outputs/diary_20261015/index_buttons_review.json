@@ -1,0 +1,101 @@
+{
+  "errors": [],
+  "initial": {
+    "panels": 2,
+    "indexCanvases": 2,
+    "duplicateSummaries": 0,
+    "controllers": [
+      "JP225",
+      "US100"
+    ]
+  },
+  "frames": [
+    {
+      "symbol": "JP225",
+      "frame": "H1",
+      "index": "8",
+      "title": "JP225 / H1・BB(20,±2σ)・20SMA（黄）・%R(15) / Axiory / JST",
+      "warning": "20SMA（黄）・%R(15)・BB幅。緑の60EMAは「5分足」で表示します。",
+      "meta": "完成足の終端 2026-10-15 19:00:00 JST / 終値 64,508.13 / 20SMA 66,131.759 / Axiory"
+    },
+    {
+      "symbol": "JP225",
+      "frame": "M5",
+      "index": "4",
+      "title": "JP225 / 5分足・60EMA（緑）＋H1 20SMA（黄・確定MTF） / Axiory / JST",
+      "warning": "10/15 09:00〜10:00は元CSVに足がない区間です。グレー部分に価格を補間していません。",
+      "meta": "完成足の終端 2026-10-15 19:20:00 JST / 終値 64,558.13 / 60EMA（緑） 64,669.402 / H1 20SMA（黄・確定MTF） 66,131.759 / Axiory"
+    },
+    {
+      "symbol": "JP225",
+      "frame": "D1",
+      "index": "0",
+      "title": "JP225 / 日足・20SMA（赤） / Axiory / JST",
+      "warning": "直近の完成日足です。当日09:00と15:30の形成中日足を比較する資料は未取得です。",
+      "meta": "完成足の終端 2026-10-15 09:00:00 JST / 終値 66,322.91 / 20SMA 67,433.401 / Axiory"
+    },
+    {
+      "symbol": "JP225",
+      "frame": "W1",
+      "index": "6",
+      "title": "JP225 / 週足・20SMA（紫） / Axiory / JST",
+      "warning": "完成足のみ。Axiory time_utcを日本時間へ変換。",
+      "meta": "完成足の終端 2026-10-11 09:00:00 JST / 終値 68,881.78 / 20SMA 66,838.962 / Axiory"
+    },
+    {
+      "symbol": "JP225",
+      "frame": "M2",
+      "index": "9",
+      "title": "JP225 / 9時台の補足・2分足 / OANDA / JST",
+      "warning": "OANDAの2分足です。Axioryの欠測区間を同じ価格系列として埋めるものではありません。",
+      "meta": "完成足の終端 2026-10-15 19:50:00 JST / 終値 64,547.1 / OANDA"
+    },
+    {
+      "symbol": "JP225",
+      "frame": "H1",
+      "index": "2",
+      "title": "JP225 / H1・20SMA（黄）・%R(15) / OANDA / JST",
+      "warning": "20SMA（黄）・%R(15)。緑の60EMAは「5分足」で表示します。",
+      "meta": "完成足の終端 2026-10-15 19:00:00 JST / 終値 64,584.6 / 20SMA 65,676.18 / OANDA"
+    },
+    {
+      "symbol": "US100",
+      "frame": "H1",
+      "index": "3",
+      "title": "US100 / H1・BB(20,±2σ)・20SMA（黄）・%R(15) / Axiory / JST",
+      "warning": "20SMA（黄）・%R(15)・BB幅。緑の60EMAは「5分足」で表示します。",
+      "meta": "完成足の終端 2026-10-15 08:00:00 JST / 終値 29,982.79 / 20SMA 30,412.75 / Axiory"
+    },
+    {
+      "symbol": "US100",
+      "frame": "M5",
+      "index": "5",
+      "title": "US100 / 5分足・60EMA（緑）＋H1 20SMA（黄・確定MTF） / Axiory / JST",
+      "warning": "US100は10/15 08:40まで。以降の価格は未取得。",
+      "meta": "完成足の終端 2026-10-15 08:40:00 JST / 終値 29,942.31 / 60EMA（緑） 30,027.465 / H1 20SMA（黄・確定MTF） 30,412.749 / Axiory"
+    },
+    {
+      "symbol": "US100",
+      "frame": "D1",
+      "index": "1",
+      "title": "US100 / 日足・20SMA（赤） / Axiory / JST",
+      "warning": "直近の完成日足です。当日09:00と15:30の形成中日足を比較する資料は未取得です。",
+      "meta": "完成足の終端 2026-10-14 09:00:00 JST / 終値 30,574.61 / 20SMA 30,495.23 / Axiory"
+    },
+    {
+      "symbol": "US100",
+      "frame": "W1",
+      "index": "7",
+      "title": "US100 / 週足・20SMA（紫） / Axiory / JST",
+      "warning": "完成足のみ。Axiory time_utcを日本時間へ変換。US100は朝までの旧データ。午後・夜へ延長しない。",
+      "meta": "完成足の終端 2026-10-11 09:00:00 JST / 終値 30,901.3 / 20SMA 29,594.186 / Axiory"
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "viewer": {
+    "visible": true
+  }
+}

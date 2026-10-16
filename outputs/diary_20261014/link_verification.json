@@ -1,0 +1,471 @@
+{
+  "count": 93,
+  "missing": [],
+  "links": [
+    {
+      "source": "[local path omitted]",
+      "target": "shared/chart_viewer.css",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/chart_viewer.js",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_symbol_replay.css",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_tag_search.css",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_tag_search.js",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_ohlcv_replay.js",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-285A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-6857",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-TSLA",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/2026-10-14/github/market-context/market_data/axiory/JP225_W1.csv",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/2026-10-14/github/market-context/market_data/axiory/JP225_D1.csv",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/2026-10-14/github/market-context/market_data/axiory/US100_D1.csv",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/2026-10-14/github/source-data/OANDA_JP225YJPY, 20_e281b.csv",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/2026-10-14/github/market-context/market_data/axiory/US100_H1.csv",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (4).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (5).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (6).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_JP225YJPY.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (3).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E5%BC%B5%E3%82%8A%E4%BB%98%E3%81%8D%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E6%9C%AC%E4%BA%BA%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%83%87%E3%82%A4%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E6%8C%87%E6%95%B0%E9%80%86%E8%A1%8C",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_285A.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E5%BC%B5%E3%82%8A%E4%BB%98%E3%81%8D%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E6%9C%AC%E4%BA%BA%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E8%AA%BF%E6%95%B4%E5%BE%8C%E3%83%AD%E3%83%B3%E3%82%B0",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_6857.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (2).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/2026-10-14 (1).png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_SNDK.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E5%BC%B5%E3%82%8A%E4%BB%98%E3%81%8D%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E6%9C%AC%E4%BA%BA%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E3%83%94%E3%83%B3%E3%83%90%E3%83%BC%E5%8F%8D%E8%BB%A2%E5%80%99%E8%A3%9C",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html?tag=%E5%A4%9C%E9%96%93%E7%9B%A3%E8%A6%96",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_TSLA.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/market_context_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/r2_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/local_board_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "assets/2026-10-14/github/スクリーン ショット 2026-10-14 に 09.43.43 午前.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_tag_search.css",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "shared/diary_tag_search.js",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/diary_tags.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-TSLA",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-6857",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html#symbol-285A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_2026-10-14.html",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/macro_0.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/macro_1.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/macro_2.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/macro_3.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/macro_4.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/market_context_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/local_board_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_285A.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_6857.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_JP225YJPY.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_SNDK.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_TSLA.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "diary_tag_index.html",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "data/diary_tags.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_6857.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "outputs/diary_20261014/memo_4498.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "market_context_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "r2_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "local_board_sources_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-285A",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "chart_285A.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-4498",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-6857",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "chart_6857.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-JP225YJPY",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "chart_JP225YJPY.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-SNDK",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "chart_SNDK.png",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "../../diary_2026-10-14.html#symbol-TSLA",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "FACTS.md",
+      "exists": true
+    },
+    {
+      "source": "[local path omitted]",
+      "target": "chart_TSLA.png",
+      "exists": true
+    }
+  ]
+}

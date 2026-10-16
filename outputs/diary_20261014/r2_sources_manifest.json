@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "key": "20261014_picked/qr-285A-20261014.csv",
+      "local_path": "[local path omitted]",
+      "bytes": 2698704,
+      "sha256": "2c1f30275cccbb07a7c3fc03fb45d0cd3e150c6d726a9d043e7c6251e54f1b5b"
+    },
+    {
+      "key": "20261014_picked/qr-6857-20261014.csv",
+      "local_path": "[local path omitted]",
+      "bytes": 1557383,
+      "sha256": "fcaa12250aef34f771f31e93713085528be1bc8f9112a292bf45f6039d1ce2fb"
+    },
+    {
+      "key": "20261013_picked/qr-285A-20261013.csv",
+      "local_path": "[local path omitted]",
+      "bytes": 3117580,
+      "sha256": "22597ac9d99ac8f49af6805682b4d88385210df5dd08bbeec92941b6a18d3bd9"
+    },
+    {
+      "key": "20261013_picked/qr-6857-20261013.csv",
+      "local_path": "[local path omitted]",
+      "bytes": 1455333,
+      "sha256": "e2bc638d9019378f8786045632ebe800e9d78678389c286ab480acbd54ca6541"
+    }
+  ],
+  "source": "authenticated R2 GET; no write",
+  "board": {
+    "status": 200,
+    "generated_at": "2026-10-04T07:14:09.911005+00:00",
+    "today_matches": [],
+    "latest_285A_keys": [
+      "board_raw/20261001thu/285A_20261001_083854.jsonl.gz",
+      "board_raw/20261001thu/285A_20261001_122508.jsonl.gz",
+      "board_raw/20261002fri/285A_20261002_082437.jsonl.gz",
+      "board_raw/20261002fri/285A_20261002_122500.jsonl.gz"
+    ]
+  }
+}

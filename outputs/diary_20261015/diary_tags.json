@@ -1,0 +1,111 @@
+[
+  {
+    "id": "2026-10-15:JP225:bb-compression-down",
+    "case_id": "2026-10-15:JP225:bb-compression-down",
+    "date": "2026-10-15",
+    "diary_id": "2026-10-15",
+    "record_type": "environment_observation",
+    "symbol": "JP225",
+    "title": "BB COMP後の下降トレンド継続の日",
+    "name": "日経225 / OANDA",
+    "time_label": "11:45・19:35の本人振り返り",
+    "tags": [
+      "BBコンプ",
+      "大きく下げた日",
+      "上昇失敗パターン",
+      "BBコンプ下降トレンド",
+      "下降トレンド継続"
+    ],
+    "aliases": [
+      "225Cash",
+      "日経平均",
+      "BBコンプレッション"
+    ],
+    "summary": "本人の11:45・19:35総括。BB幅約599〜641の収縮後に下落継続と分類。設定・測定時刻の一致は未確認。",
+    "classification_source": "本人の本日の明示分類＋GitHubの本人実況",
+    "execution_status": "環境観察",
+    "execution_confirmed": false,
+    "included_in_realized_pnl": false,
+    "outcome": {
+      "value": null,
+      "currency": "JPY",
+      "reported_text": "環境観察・売買損益なし。"
+    },
+    "diary_url": "diary_2026-10-15.html#symbol-JP225YJPY",
+    "diary_href": "diary_2026-10-15.html",
+    "scene_href": "diary_2026-10-15.html#symbol-JP225YJPY",
+    "memo_url": "outputs/diary_20261015/memo_JP225YJPY.md"
+  },
+  {
+    "id": "2026-10-15:5803:countertrend-long-stop",
+    "case_id": "2026-10-15:5803:countertrend-long-stop",
+    "date": "2026-10-15",
+    "diary_id": "2026-10-15",
+    "record_type": "paper_trade",
+    "symbol": "5803",
+    "title": "フジクラ・下げ止まり未確認のロング損切り",
+    "name": "フジクラ",
+    "time_label": "09:38:10〜09:45:19 JST",
+    "tags": [
+      "下げ止まり未確認",
+      "出来高ダイバージェンス",
+      "逆行ロング",
+      "ロールリバーサル失敗",
+      "Paper Trading"
+    ],
+    "aliases": [
+      "ふじくら",
+      "フジクラ",
+      "5803"
+    ],
+    "summary": "30秒足のロールリバーサルを期待して4回買い、400株。平均4,715円から4,688円で決済。実況と同じPaper取引と本人確認済み。",
+    "classification_source": "GitHub本人実況の分類＋約定CSV照合",
+    "execution_status": "Paper",
+    "execution_confirmed": true,
+    "included_in_realized_pnl": false,
+    "outcome": {
+      "value": -10800,
+      "currency": "JPY",
+      "reported_text": "Paper実現−10,800円。実口座の損益は未確認。"
+    },
+    "diary_url": "diary_2026-10-15.html#symbol-5803",
+    "diary_href": "diary_2026-10-15.html",
+    "scene_href": "diary_2026-10-15.html#symbol-5803",
+    "memo_url": "outputs/diary_20261015/memo_5803.md"
+  },
+  {
+    "id": "2026-10-15:5803:round-support-failure-sell",
+    "case_id": "2026-10-15:5803:round-support-failure-sell",
+    "date": "2026-10-15",
+    "diary_id": "2026-10-15",
+    "record_type": "retrospective_hypothesis",
+    "symbol": "5803",
+    "title": "フジクラ・4,700円の支持失敗SELL仮説",
+    "name": "フジクラ",
+    "time_label": "09:42〜09:48の30秒足を事後検証",
+    "tags": [
+      "キリ番",
+      "支持失敗",
+      "戻り売り",
+      "大衆狩り仮説",
+      "下降トレンド継続"
+    ],
+    "summary": "本人追記：キリ番での大衆狩りを狙ったSELLの方が期待値が高いのでは。日誌では支持失敗と戻りでの抵抗化として検証。",
+    "classification_source": "本人の今回の追記＋歩み値からの事後分析",
+    "execution_status": "未実行候補",
+    "execution_confirmed": false,
+    "included_in_realized_pnl": false,
+    "outcome": {
+      "reported_text": "未実行のSELL仮説。ENTRY・LC・TP・数量・統計的期待値は未確定。実損益への加算なし。"
+    },
+    "diary_url": "diary_2026-10-15.html#index-trade-review",
+    "diary_href": "diary_2026-10-15.html",
+    "scene_href": "diary_2026-10-15.html#index-trade-review",
+    "aliases": [
+      "ふじくら",
+      "4700",
+      "キリ番大衆狩り"
+    ],
+    "memo_url": "outputs/diary_20261015/index_trade_review.md"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-10-14:285A:continuous-watch-missed-entry",
+    "date": "2026-10-14",
+    "symbol": "285A",
+    "name": "キオクシア",
+    "time_label": "09:40:30 → 09:46:30 / 利確候補10:06頃（JST）",
+    "tags": ["張り付きが必要なエントリーポイント", "エントリーできなかった", "本人振り返り", "デイロールリバーサル", "指数逆行"],
+    "aliases": ["きおくしあ", "KIOXIA", "張り付いていないと見つけられなかった", "張り付いていれば見つけられた", "常時監視", "見逃したエントリー"],
+    "summary": "出来高を伴う陽線から陰線へのデイロールリバーサル。転換後の下落1波を売り、前日終値付近を狙う候補だったと本人が振り返る。",
+    "note": "本人指定の未実行候補。指数に逆らうため採用したエントリー件数には含めない。実損益に加算しない。出来高・候補価格の相違は銘柄本文へ併記。",
+    "diary_url": "diary_2026-10-14.html#symbol-285A",
+    "memo_url": "outputs/diary_20261014/memo_285A.md",
+    "classification_source": "本人の今回のタグ指定と振り返り",
+    "execution_confirmed": false,
+    "included_in_realized_pnl": false
+  },
+  {
+    "id": "2026-10-14:6857:continuous-watch-missed-entry",
+    "date": "2026-10-14",
+    "symbol": "6857",
+    "name": "アドバンテスト",
+    "time_label": "09:25頃 → 09:34:30の陽線 → 調整後 / 振り返り10:10頃（JST）",
+    "tags": ["張り付きが必要なエントリーポイント", "エントリーできなかった", "本人振り返り", "ロールリバーサル", "調整後ロング"],
+    "aliases": ["あどばんてすと", "ADVANTEST", "アドバンステスト", "張り付いていないと見つけられなかった", "張り付いていれば見つけられた", "常時監視", "見逃したエントリー"],
+    "summary": "陰線が発生した価格帯を出来高を伴う陽線が回復。上昇2波の調整後、ロング3波を狙えたと本人が振り返る。希望価格は40,630円。",
+    "note": "本人指定の未実行候補。既存のPaper買い指値40,650円は未約定で取消。調整後の仮想ENTRY・LC・仮想利益額は未確定、実損益に加算しない。",
+    "diary_url": "diary_2026-10-14.html#symbol-6857",
+    "memo_url": "outputs/diary_20261014/memo_6857.md",
+    "classification_source": "本人の今回のタグ指定と振り返り",
+    "execution_confirmed": false,
+    "included_in_realized_pnl": false
+  },
+  {
+    "id": "2026-10-14:TSLA:continuous-watch-missed-entry",
+    "date": "2026-10-14",
+    "symbol": "TSLA",
+    "name": "テスラ",
+    "time_label": "03:51–03:52 JST（前夜NYの候補）",
+    "tags": ["張り付きが必要なエントリーポイント", "エントリーできなかった", "本人振り返り", "ピンバー反転候補", "夜間監視"],
+    "aliases": ["てすら", "TESLA", "張り付いていないと見つけられなかった", "張り付いていれば見つけられた", "常時監視", "見逃したエントリー"],
+    "summary": "373ドル付近の下値反応とロング候補。本人が今回、張り付いていないと見つけられなかったエントリーポイントとして指定。",
+    "note": "本人の振り返りによる未実行候補。03:52は安値切り上げを確認できるが、前足の高値更新は未達。正確な仮想ENTRY・LC・数量・利益は未確定、実損益に加算しない。",
+    "diary_url": "diary_2026-10-14.html#symbol-TSLA",
+    "memo_url": "outputs/diary_20261014/memo_TSLA.md",
+    "classification_source": "本人の今回のタグ指定と振り返り",
+    "execution_confirmed": false,
+    "included_in_realized_pnl": false
+  }
+]

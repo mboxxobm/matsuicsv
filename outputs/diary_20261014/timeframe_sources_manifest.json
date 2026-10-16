@@ -1,0 +1,55 @@
+{
+  "cutoff_jst": "2026-10-14T15:30:00+09:00",
+  "source_commit": "84d90293f5e5f8bec33e6707bfa5d2d654be7113",
+  "sources": [
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+      "sha256": "612ac64237c6ba6c79423fea5a9a67277f1494d378ce8a28cbfb3164570ed0fb",
+      "cutoff_jst": "2026-10-14T15:30:00+09:00",
+      "last_completed_jst": "2026-10-14T15:30:00+09:00"
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+      "sha256": "a03e9a614e2ce4aac612840cd4d5ec110cf9b77dde7363de7b2ca1d628a7b291",
+      "cutoff_jst": "2026-10-14T15:30:00+09:00",
+      "last_completed_jst": "2026-10-14T15:30:00+09:00"
+    },
+    {
+      "path": "data/2026-10-15/github/market_data/axiory/US100_W1.csv",
+      "sha256": "6a182a3ed5c5645509cce9a1e66329ddb486a79d4020940bcee9b26257fe6e57",
+      "cutoff_jst": "2026-10-14T15:30:00+09:00",
+      "last_completed_jst": "2026-10-11T09:00:00+09:00"
+    }
+  ],
+  "mtf": {
+    "config": "templates/index_mtf_chart.json",
+    "symbols": {
+      "JP225": {
+        "m5_source": "data/2026-10-15/github/market_data/axiory/JP225_M5.csv",
+        "h1_source": "data/2026-10-15/github/market_data/axiory/JP225_H1.csv",
+        "m5_sha256": "612ac64237c6ba6c79423fea5a9a67277f1494d378ce8a28cbfb3164570ed0fb",
+        "h1_sha256": "acb0ade149b9e700faeea5c4e0169ff8f6277fdc6c0d6e107b68e966876ae29e",
+        "view_start_jst": "2026-10-13 21:00:00",
+        "last_m5_end": "2026-10-14T15:30:00+09:00",
+        "last_ema60": 68091.78654702689,
+        "last_h1_sma20": 67916.62000000001,
+        "last_h1_end": "2026-10-14T15:00:00+09:00",
+        "policy_violations": 0,
+        "available_m5_rows": 107940
+      },
+      "US100": {
+        "m5_source": "data/2026-10-15/github/market_data/axiory/US100_M5.csv",
+        "h1_source": "data/2026-10-15/github/market_data/axiory/US100_H1.csv",
+        "m5_sha256": "a03e9a614e2ce4aac612840cd4d5ec110cf9b77dde7363de7b2ca1d628a7b291",
+        "h1_sha256": "31de65da91d8781b6bfa272b0b2d233de1f509f1b491f854a8924ac813fb0466",
+        "view_start_jst": "2026-10-13 21:00:00",
+        "last_m5_end": "2026-10-14T15:30:00+09:00",
+        "last_ema60": 30622.929399846773,
+        "last_h1_sma20": 30544.123499999998,
+        "last_h1_end": "2026-10-14T15:00:00+09:00",
+        "policy_violations": 0,
+        "available_m5_rows": 107651
+      }
+    }
+  }
+}
